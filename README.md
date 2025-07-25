@@ -44,7 +44,7 @@ node app.js
 cd ../frontend
 ng serve
 
- Backend : http://localhost:3000
+ Backend : http://localhost:3001
 
  Frontend : http://localhost:4200
 
