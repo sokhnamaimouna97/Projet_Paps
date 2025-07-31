@@ -1,0 +1,170 @@
+[2025-07-31T19:51:13.470] [INFO] default - Serveur démarré
+[2025-07-31T19:51:13.471] [ERROR] default - Une erreur est survenue
+[2025-07-31T19:53:03.653] [INFO] default - Serveur démarré
+[2025-07-31T19:53:03.654] [ERROR] default - Une erreur est survenue
+[2025-07-31T19:54:21.191] [INFO] default - Serveur démarré
+[2025-07-31T19:54:21.192] [ERROR] default - Une erreur est survenue
+[2025-07-31T20:15:33.315] [INFO] default - Serveur démarré
+[2025-07-31T20:15:33.316] [ERROR] default - Une erreur est survenue
+[2025-07-31T20:17:47.283] [INFO] default - Serveur démarré sur le port 5000
+[2025-07-31T20:19:11.702] [INFO] default - Serveur démarré sur le port 5000 - Prêt pour les tests Postman !
+[2025-07-31T20:22:42.757] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-07-31T20:22:42.756Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.331610709}
+[2025-07-31T20:22:53.767] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createProduct",
+  "status": 500,
+  "duration": "114ms",
+  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.44.1",
+  "timestamp": "2025-07-31T20:22:53.767Z",
+  "body": {
+    "nom": "iPhone 15 Pro",
+    "prix": "99",
+    "image": "iphone15pro.jpg",
+    "stock": "hgh",
+    "categorie_id": "688bc2eb30725a959aeae3d4"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 168,
+  "responseData": {
+    "message": "Erreur lors de la création du produit",
+    "error": "Produit validation failed: stock: Cast to Number failed for value \"hgh\" (type string) at path \"stock\""
+  }
+}
+[2025-07-31T20:22:53.767] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createProduct",
+  "status": 500,
+  "duration": "114ms",
+  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.44.1",
+  "timestamp": "2025-07-31T20:22:53.767Z",
+  "body": {
+    "nom": "iPhone 15 Pro",
+    "prix": "99",
+    "image": "iphone15pro.jpg",
+    "stock": "hgh",
+    "categorie_id": "688bc2eb30725a959aeae3d4"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 168,
+  "responsePreview": "{\"message\":\"Erreur lors de la création du produit\",\"error\":\"Produit validation failed: stock: Cast t"
+}
+[2025-07-31T20:23:26.044] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-07-31T20:23:26.044Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.247686458}
+[2025-07-31T20:23:35.728] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createProduct",
+  "status": 201,
+  "duration": "347ms",
+  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.44.1",
+  "timestamp": "2025-07-31T20:23:35.728Z",
+  "body": {
+    "nom": "iPhone 15 Pro",
+    "prix": "99",
+    "image": "iphone15pro.jpg",
+    "stock": 20,
+    "categorie_id": "688bc2eb30725a959aeae3d4"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 259,
+  "responseData": {
+    "message": "Votre produit a été créé avec succès",
+    "produit": {
+      "nom": "iPhone 15 Pro",
+      "prix": 99,
+      "image": "iphone15pro.jpg",
+      "stock": 20,
+      "categorie_id": {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets"
+      },
+      "_id": "688bd0c751f52f52f96c9394",
+      "__v": 0
+    }
+  }
+}
+[2025-07-31T20:23:35.729] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createProduct",
+  "status": 201,
+  "duration": "348ms",
+  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.44.1",
+  "timestamp": "2025-07-31T20:23:35.728Z",
+  "body": {
+    "nom": "iPhone 15 Pro",
+    "prix": "99",
+    "image": "iphone15pro.jpg",
+    "stock": 20,
+    "categorie_id": "688bc2eb30725a959aeae3d4"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 259,
+  "responsePreview": "{\"message\":\"Votre produit a été créé avec succès\",\"produit\":{\"nom\":\"iPhone 15 Pro\",\"prix\":99,\"image\""
+}
+[2025-07-31T20:26:06.960] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-07-31T20:26:06.960Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.243615375}
+[2025-07-31T20:26:34.590] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createProduct",
+  "status": 201,
+  "duration": "2358ms",
+  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.44.1",
+  "timestamp": "2025-07-31T20:26:34.589Z",
+  "body": {
+    "nom": "iPhone 15 Pro",
+    "prix": "99",
+    "image": "iphone15pro.jpg",
+    "stock": 20,
+    "categorie_id": "688bc2eb30725a959aeae3d4"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 259,
+  "responseData": {
+    "message": "Votre produit a été créé avec succès",
+    "produit": {
+      "nom": "iPhone 15 Pro",
+      "prix": 99,
+      "image": "iphone15pro.jpg",
+      "stock": 20,
+      "categorie_id": {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets"
+      },
+      "_id": "688bd179d9f1551249f37386",
+      "__v": 0
+    }
+  }
+}
+[2025-07-31T20:26:34.591] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createProduct",
+  "status": 201,
+  "duration": "2360ms",
+  "user": "fatou.diop@example.com (688ba2b9ba4384daa466b2a6)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.44.1",
+  "timestamp": "2025-07-31T20:26:34.591Z",
+  "body": {
+    "nom": "iPhone 15 Pro",
+    "prix": "99",
+    "image": "iphone15pro.jpg",
+    "stock": 20,
+    "categorie_id": "688bc2eb30725a959aeae3d4"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 259,
+  "responsePreview": "{\"message\":\"Votre produit a été créé avec succès\",\"produit\":{\"nom\":\"iPhone 15 Pro\",\"prix\":99,\"image\""
+}

@@ -1,0 +1,8 @@
+[2025-07-31T19:54:26.747] [INFO] http - ::1 POST /api/createProduct 201 388ms
+[2025-07-31T19:54:46.655] [INFO] http - ::1 POST /api/createProduct 201 760ms
+[2025-07-31T19:55:03.673] [ERROR] http - ::1 POST /api/createProduct 500 134ms
+[2025-07-31T20:18:28.769] [ERROR] http - ::1 POST /api/createProduct 500 911ms
+[2025-07-31T20:19:20.601] [ERROR] http - ::1 POST /api/createProduct 500 126ms
+[2025-07-31T20:22:53.769] [ERROR] http - ::1 POST /api/createProduct 500 116ms
+[2025-07-31T20:23:35.732] [INFO] http - ::1 POST /api/createProduct 201 351ms
+[2025-07-31T20:26:34.596] [INFO] http - ::1 POST /api/createProduct 201 2364ms
