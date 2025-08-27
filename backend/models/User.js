@@ -4,6 +4,7 @@ const UserSchema = new mongoose.Schema({
   prenom: String,
   nom: String,
   role: { type: String, enum: ["client", "commercant", "livreur"], required: true },
+  subscription: { type: mongoose.Schema.Types.ObjectId, ref: "Subscription" },
   telephone: String,
     email: { type: String, unique: true, required: true },
     password: { type: String, required: true },

@@ -168,3 +168,756 @@
   "responseSize": 259,
   "responsePreview": "{\"message\":\"Votre produit a été créé avec succès\",\"produit\":{\"nom\":\"iPhone 15 Pro\",\"prix\":99,\"image\""
 }
+[2025-08-06T14:39:23.880] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-06T14:39:23.877Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.312783333}
+[2025-08-06T14:40:23.864] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 500,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:40:23.864Z",
+  "query": {},
+  "params": {},
+  "responseSize": 109,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": "Cannot destructure property 'prenom' of 'req.body' as it is undefined."
+  }
+}
+[2025-08-06T14:40:23.864] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 500,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:40:23.864Z",
+  "query": {},
+  "params": {},
+  "responseSize": 109,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":\"Cannot destructure property 'prenom' of 'req.body' as it is und"
+}
+[2025-08-06T14:41:18.389] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "411ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:41:18.389Z",
+  "body": {
+    "prenom": "Samba",
+    "nom": "Sow",
+    "telephone": "771234567",
+    "email": "samba@example.com",
+    "password": "MotDePasseFort123",
+    "nom_boutique": "Boutique Bio",
+    "adress": "Dakar, Sénégal"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 634,
+  "responseData": {
+    "message": "Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a été activé.",
+    "user": {
+      "prenom": "Samba",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "samba@example.com",
+      "password": "$2b$10$mLzg7fUpaiw0w359jWWff.Zm2OxSVk7nnJME53qZHC1SL/ZIIjGFy",
+      "commercant_id": "6893698e93f4c49213642a2a",
+      "_id": "6893698e93f4c49213642a2e",
+      "__v": 0
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4OTM2OThlOTNmNGM0OTIxMzY0MmEyZSIsImVtYWlsIjoic2FtYmFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NDQ5MTI3OCwiZXhwIjoxNzU1MDk2MDc4fQ.tteW8PQ8zrYwL5kodN3oFZJbZ-zuOo7VL63XvgT23EI"
+  }
+}
+[2025-08-06T14:41:18.390] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "413ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:41:18.390Z",
+  "body": {
+    "prenom": "Samba",
+    "nom": "Sow",
+    "telephone": "771234567",
+    "email": "samba@example.com",
+    "password": "MotDePasseFort123",
+    "nom_boutique": "Boutique Bio",
+    "adress": "Dakar, Sénégal"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 634,
+  "responsePreview": "{\"message\":\"Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a "
+}
+[2025-08-06T14:44:04.840] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-06T14:44:04.839Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.247657166}
+[2025-08-06T14:44:15.917] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "397ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:44:15.917Z",
+  "body": {
+    "prenom": "Samba",
+    "nom": "Sow",
+    "telephone": "771234567",
+    "email": "sambabbb@example.com",
+    "password": "MotDePasseFort123",
+    "nom_boutique": "Boutique Bio",
+    "adress": "Dakar, Sénégal"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 744,
+  "responseData": {
+    "message": "Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a été activé.",
+    "user": {
+      "prenom": "Samba",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "sambabbb@example.com",
+      "password": "$2b$10$8L2pOFVjtc9gM1XA3EUPfuwd/Xv/YYiEpvSDQzvKtdTp.idYmQqw6",
+      "commercant_id": "68936a3f16f31c5b8cf68c5f",
+      "_id": "68936a3f16f31c5b8cf68c63",
+      "__v": 0
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4OTM2YTNmMTZmMzFjNWI4Y2Y2OGM2MyIsImVtYWlsIjoic2FtYmFiYmJAZXhhbXBsZS5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NDQ5MTQ1NSwiZXhwIjoxNzU1MDk2MjU1fQ.hs4Z9cIoP7p6iu2Mzxsoj3e-1UYFZ1qE1KJKFfhs1Bo",
+    "subscription": {
+      "start": "2025-08-06T14:44:15.758Z",
+      "end": "2025-09-05T14:44:15.758Z",
+      "status": "active"
+    }
+  }
+}
+[2025-08-06T14:44:15.918] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "399ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:44:15.918Z",
+  "body": {
+    "prenom": "Samba",
+    "nom": "Sow",
+    "telephone": "771234567",
+    "email": "sambabbb@example.com",
+    "password": "MotDePasseFort123",
+    "nom_boutique": "Boutique Bio",
+    "adress": "Dakar, Sénégal"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 744,
+  "responsePreview": "{\"message\":\"Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a "
+}
+[2025-08-06T14:44:38.992] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-06T14:44:38.991Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.242810208}
+[2025-08-06T14:44:45.651] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "397ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:44:45.650Z",
+  "body": {
+    "prenom": "Samba",
+    "nom": "Sow",
+    "telephone": "771234567",
+    "email": "sambabbdsb@example.com",
+    "password": "MotDePasseFort123",
+    "nom_boutique": "Boutique Bio",
+    "adress": "Dakar, Sénégal"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 496,
+  "responseData": {
+    "message": "Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a été activé.",
+    "user": {
+      "prenom": "Samba",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "sambabbdsb@example.com",
+      "password": "$2b$10$JewbXzy9Sspj8t3RgovnhOFMoqAsnFR9dLWD9C6d8XLcsWjAr7d6m",
+      "commercant_id": "68936a5d696d340cfa924bb6",
+      "_id": "68936a5d696d340cfa924bba",
+      "__v": 0
+    },
+    "subscription": {
+      "start": "2025-08-06T14:44:45.492Z",
+      "end": "2025-09-05T14:44:45.492Z",
+      "status": "active"
+    }
+  }
+}
+[2025-08-06T14:44:45.652] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "399ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:44:45.652Z",
+  "body": {
+    "prenom": "Samba",
+    "nom": "Sow",
+    "telephone": "771234567",
+    "email": "sambabbdsb@example.com",
+    "password": "MotDePasseFort123",
+    "nom_boutique": "Boutique Bio",
+    "adress": "Dakar, Sénégal"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 496,
+  "responsePreview": "{\"message\":\"Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a "
+}
+[2025-08-06T14:45:46.507] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "255ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:45:46.507Z",
+  "body": {
+    "email": "sambabbdsb@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 41,
+  "responseData": {
+    "message": "Votre abonnement a expiré."
+  }
+}
+[2025-08-06T14:45:46.508] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "256ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:45:46.508Z",
+  "body": {
+    "email": "sambabbdsb@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 41,
+  "responsePreview": "{\"message\":\"Votre abonnement a expiré.\"}"
+}
+[2025-08-06T14:46:04.822] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "230ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:46:04.822Z",
+  "body": {
+    "email": "sambabbdsb@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 558,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4OTM2YTVkNjk2ZDM0MGNmYTkyNGJiYSIsImVtYWlsIjoic2FtYmFiYmRzYkBleGFtcGxlLmNvbSIsInJvbGUiOiJjb21tZXJjYW50IiwiaWF0IjoxNzU0NDkxNTY0LCJleHAiOjE3NTUwOTYzNjR9.AtJ_mOnQ10Bz-XsLDbsyo2PxE2jJFFVdrlAccsfH644",
+    "user": {
+      "_id": "68936a5d696d340cfa924bba",
+      "prenom": "Samba",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "sambabbdsb@example.com",
+      "password": "$2b$10$JewbXzy9Sspj8t3RgovnhOFMoqAsnFR9dLWD9C6d8XLcsWjAr7d6m",
+      "commercant_id": "68936a5d696d340cfa924bb6",
+      "__v": 0
+    }
+  }
+}
+[2025-08-06T14:46:04.823] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "231ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-06T14:46:04.823Z",
+  "body": {
+    "email": "sambabbdsb@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 558,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4OTM2YTVkNj"
+}
+[2025-08-22T16:51:32.587] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-22T16:51:32.586Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.296048542}
+[2025-08-22T16:52:09.771] [INFO] success - {"operation":"HOME_PAGE_ACCESS","user":"Système","timestamp":"2025-08-22T16:52:09.770Z","ip":"::1","userAgent":"PostmanRuntime/7.45.0"}
+[2025-08-22T16:52:09.771] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-22T16:52:09.771Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responseData": {
+    "message": "API is running"
+  }
+}
+[2025-08-22T16:52:09.771] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-22T16:52:09.771Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responsePreview": "{\"message\":\"API is running\"}"
+}
+[2025-08-22T16:52:37.560] [INFO] success - {"operation":"HOME_PAGE_ACCESS","user":"Système","timestamp":"2025-08-22T16:52:37.560Z","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-22T16:52:37.561] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-22T16:52:37.561Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responseData": {
+    "message": "API is running"
+  }
+}
+[2025-08-22T16:52:37.561] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-22T16:52:37.561Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responsePreview": "{\"message\":\"API is running\"}"
+}
+[2025-08-22T16:52:37.803] [INFO] detailed - {
+  "method": "GET",
+  "url": "/favicon.ico",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-22T16:52:37.803Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1242,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /favicon.ico non trouvée",
+      "status": 404,
+      "timestamp": "2025-08-22T16:52:37.803Z"
+    },
+    "debug": {
+      "stack": "Error: Route /favicon.ico non trouvée\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:75:19\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:582:12)\n    at next (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:291:5)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:59:5\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9",
+      "url": "/favicon.ico",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-08-22T16:52:37.803] [INFO] detailed - {
+  "method": "GET",
+  "url": "/favicon.ico",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-22T16:52:37.803Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1242,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /favicon.ico non trouvée\",\"status\":404,\"timestamp\":\"2025-"
+}
+[2025-08-22T16:52:58.276] [INFO] success - {"operation":"HOME_PAGE_ACCESS","user":"Système","timestamp":"2025-08-22T16:52:58.276Z","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-22T16:52:58.276] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-22T16:52:58.276Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responseData": {
+    "message": "API is running"
+  }
+}
+[2025-08-22T16:52:58.276] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-22T16:52:58.276Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responsePreview": "{\"message\":\"API is running\"}"
+}
+[2025-08-22T16:53:00.469] [INFO] success - {"operation":"HOME_PAGE_ACCESS","user":"Système","timestamp":"2025-08-22T16:53:00.469Z","ip":"::1","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"}
+[2025-08-22T16:53:00.469] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-22T16:53:00.469Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responseData": {
+    "message": "API is running"
+  }
+}
+[2025-08-22T16:53:00.470] [INFO] detailed - {
+  "method": "GET",
+  "url": "/",
+  "status": 200,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-22T16:53:00.470Z",
+  "query": {},
+  "params": {},
+  "responseSize": 28,
+  "responsePreview": "{\"message\":\"API is running\"}"
+}
+[2025-08-26T18:51:12.427] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-26T18:51:12.426Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.356117334}
+[2025-08-26T18:55:16.230] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "1056ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T18:55:16.229Z",
+  "body": {
+    "prenom": "Ali",
+    "nom": "Sow",
+    "telephone": 771234567,
+    "email": "test@gmail.com",
+    "password": "passer1234",
+    "nom_boutique": "La diva",
+    "adress": "Thiaroye"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 486,
+  "responseData": {
+    "message": "Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a été activé.",
+    "user": {
+      "prenom": "Ali",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "test@gmail.com",
+      "password": "$2b$10$FI4E1O2ZaRXBWlVNPsHSduzsOQQJWc7C0/Y24Uo84DjiUvlV4jVhe",
+      "commercant_id": "68ae0313cfb5e908a0421aba",
+      "_id": "68ae0314cfb5e908a0421abe",
+      "__v": 0
+    },
+    "subscription": {
+      "start": "2025-08-26T18:55:15.995Z",
+      "end": "2025-09-25T18:55:15.995Z",
+      "status": "active"
+    }
+  }
+}
+[2025-08-26T18:55:16.231] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "1058ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T18:55:16.231Z",
+  "body": {
+    "prenom": "Ali",
+    "nom": "Sow",
+    "telephone": 771234567,
+    "email": "test@gmail.com",
+    "password": "passer1234",
+    "nom_boutique": "La diva",
+    "adress": "Thiaroye"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 486,
+  "responsePreview": "{\"message\":\"Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a "
+}
+[2025-08-26T18:58:17.516] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "297ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T18:58:17.516Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2ZiNWU5MDhhMDQyMWFiZSIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjIzNDY5NywiZXhwIjoxNzU2ODM5NDk3fQ.npu-6dfDAq9pgwJ_xhCZNVtozQnUSpWt8kZirSZamnc",
+    "user": {
+      "_id": "68ae0314cfb5e908a0421abe",
+      "prenom": "Ali",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "test@gmail.com",
+      "password": "$2b$10$FI4E1O2ZaRXBWlVNPsHSduzsOQQJWc7C0/Y24Uo84DjiUvlV4jVhe",
+      "commercant_id": "68ae0313cfb5e908a0421aba",
+      "__v": 0
+    }
+  }
+}
+[2025-08-26T18:58:17.518] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "298ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T18:58:17.517Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2"
+}
+[2025-08-26T19:00:56.685] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "325ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T19:00:56.684Z",
+  "body": {
+    "prenom": "Ware",
+    "nom": "Fatou",
+    "password": "123456789",
+    "email": "helloword@test.com",
+    "telephone": "7785966555",
+    "commercant_id": "68ae0314cfb5e908a0421abe"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 418,
+  "responseData": {
+    "message": "Livreur et utilisateur créés avec succès",
+    "livreur": {
+      "commercant_id": "68ae0314cfb5e908a0421abe",
+      "_id": "68ae0468cfb5e908a0421ac2",
+      "__v": 0
+    },
+    "user": {
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "role": "livreur",
+      "telephone": "7785966555",
+      "email": "helloword@test.com",
+      "password": "$2b$10$buEGcz/fVWIXSqO2OIwNOunsIpvNP.739he7yyxFJCcQ7aUUcKtr.",
+      "livreur_id": "68ae0468cfb5e908a0421ac2",
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "__v": 0
+    }
+  }
+}
+[2025-08-26T19:00:56.685] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "326ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T19:00:56.685Z",
+  "body": {
+    "prenom": "Ware",
+    "nom": "Fatou",
+    "password": "123456789",
+    "email": "helloword@test.com",
+    "telephone": "7785966555",
+    "commercant_id": "68ae0314cfb5e908a0421abe"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 418,
+  "responsePreview": "{\"message\":\"Livreur et utilisateur créés avec succès\",\"livreur\":{\"commercant_id\":\"68ae0314cfb5e908a0"
+}
+[2025-08-26T19:02:23.839] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "367ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T19:02:23.839Z",
+  "body": {
+    "nom": "Cosmetique"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 133,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "Cosmetique",
+      "_id": "68ae04bfcfb5e908a0421ac8",
+      "__v": 0
+    }
+  }
+}
+[2025-08-26T19:02:23.840] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "369ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T19:02:23.840Z",
+  "body": {
+    "nom": "Cosmetique"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 133,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"Cosmetique\",\"_id\":\"68ae04bf"
+}
+[2025-08-26T19:04:04.544] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createProduct",
+  "status": 201,
+  "duration": "381ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T19:04:04.543Z",
+  "body": {
+    "nom": "khessal",
+    "prix": 1500,
+    "image": "dhdfghdfgdf",
+    "stock": 78,
+    "categorie_id": "68ae04bfcfb5e908a0421ac8"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 238,
+  "responseData": {
+    "message": "Votre produit a été créé avec succès",
+    "produit": {
+      "nom": "khessal",
+      "prix": 1500,
+      "image": "dhdfghdfgdf",
+      "stock": 78,
+      "categorie_id": {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique"
+      },
+      "_id": "68ae0524cfb5e908a0421acb",
+      "__v": 0
+    }
+  }
+}
+[2025-08-26T19:04:04.545] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createProduct",
+  "status": 201,
+  "duration": "383ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-08-26T19:04:04.545Z",
+  "body": {
+    "nom": "khessal",
+    "prix": 1500,
+    "image": "dhdfghdfgdf",
+    "stock": 78,
+    "categorie_id": "68ae04bfcfb5e908a0421ac8"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 238,
+  "responsePreview": "{\"message\":\"Votre produit a été créé avec succès\",\"produit\":{\"nom\":\"khessal\",\"prix\":1500,\"image\":\"dh"
+}

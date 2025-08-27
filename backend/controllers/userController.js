@@ -2,6 +2,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 const Commercant = require("../models/Commercant");
+const Subscription = require("../models/Subscription");
 
 const secretKey = process.env.JWT_KEY;
 
@@ -29,6 +30,19 @@ const signUpCommercant = async (req, res) => {
         const commercant = new Commercant({ nom_boutique, adress });
         await commercant.save();
 
+        // Création d’un abonnement gratuit d’un mois
+        const startDate = new Date();
+        const durationDays = 30;
+        const endDate = new Date(startDate.getTime() + durationDays * 24 * 60 * 60 * 1000);
+
+        const subscription = new Subscription({
+            commercant_id: commercant._id,
+            start: startDate,
+            end: endDate,
+            status: "active"
+        });
+        await subscription.save();
+
         // Création de l'utilisateur associé
         const user = new User({
             prenom,
@@ -42,20 +56,23 @@ const signUpCommercant = async (req, res) => {
 
         await user.save();
 
-        // Générer un token
-        const token = createToken(user._id, user.email, user.role);
+
+  
 
         res.status(201).json({
-            message: "Commerçant et compte utilisateur créés avec succès.",
+            message: "Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a été activé.",
             user,
+            subscription: {
+                start: subscription.start,
+                end: subscription.end,
+                status: subscription.status
+            }
         });
-
     } catch (err) {
         console.error("Erreur lors de l'inscription du commerçant :", err);
-        res.status(500).json({ message: "Erreur serveur", error: err });
+        res.status(500).json({ message: "Erreur serveur", error: err.message });
     }
 };
-
 const signIn = async (req, res) => {
     try {
         const { email, password } = req.body;
@@ -66,7 +83,7 @@ const signIn = async (req, res) => {
         if (!user) {
             return res.status(401).json({ message: "Email ou mot de passe incorrect." });
         }
-if (user.role !== "commercant" && user.role !== "livreur") {
+        if (user.role !== "commercant" && user.role !== "livreur") {
             return res.status(403).json({ message: "Accès réservé aux commerçants." });
         }
         // 3. Vérifier le mot de passe
@@ -74,7 +91,24 @@ if (user.role !== "commercant" && user.role !== "livreur") {
         if (!isMatch) {
             return res.status(401).json({ message: "Email ou mot de passe incorrect." });
         }
+ if (user.role === "commercant") {
+            const subscription = await Subscription.findOne({ commercant_id: user.commercant_id });
 
+            if (!subscription) {
+                return res.status(403).json({ message: "Aucun abonnement trouvé pour ce commerçant." });
+            }
+
+            const now = Date.now();
+            const endDate = new Date(subscription.end).getTime();
+
+            if (endDate < now) {
+                return res.status(403).json({ message: "Votre abonnement a expiré." });
+            }
+
+            if (subscription.status !== "active") {
+                return res.status(403).json({ message: "Votre abonnement n'est pas actif." });
+            }
+        }
         // 4. Générer un token JWT
         const token= createToken(user._id, user.email, user.role);
     
@@ -89,9 +123,6 @@ if (user.role !== "commercant" && user.role !== "livreur") {
         res.status(500).json({ message: "Erreur serveur", error });
     }
 };
-
-
-
 
 const checkAndGetUserByToken = async (req, res) => {
     try {

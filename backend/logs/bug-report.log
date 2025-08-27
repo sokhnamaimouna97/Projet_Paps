@@ -1,0 +1,48 @@
+[2025-08-22T16:52:37.802] {
+  "error": {
+    "message": "Route /favicon.ico non trouvée",
+    "stack": "Error: Route /favicon.ico non trouvée\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:75:19\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:582:12)\n    at next (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:291:5)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:59:5\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/favicon.ico",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "host": "understand-boundary-aggressive-investigations.trycloudflare.com",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+      "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      "accept-encoding": "gzip",
+      "accept-language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+      "cdn-loop": "cloudflare; loops=1; subreqs=1",
+      "cf-connecting-ip": "2001:4278:1b:32aa:ecf4:3913:24ad:a519",
+      "cf-ew-via": "15",
+      "cf-ipcountry": "SN",
+      "cf-ray": "9733e1b827302941-MAD",
+      "cf-visitor": "{\"scheme\":\"https\"}",
+      "cf-warp-tag-id": "86680193-2a23-4019-aaab-de1cc0eda879",
+      "cf-worker": "trycloudflare.com",
+      "connection": "keep-alive",
+      "priority": "u=1, i",
+      "referer": "https://understand-boundary-aggressive-investigations.trycloudflare.com/",
+      "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "image",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "same-origin",
+      "x-forwarded-for": "2001:4278:1b:32aa:ecf4:3913:24ad:a519",
+      "x-forwarded-proto": "https"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-08-22T16:52:37.802Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-08-22T16:52:37.802Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+

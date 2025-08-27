@@ -1,8 +1,5 @@
-[2025-07-31T19:54:26.747] [INFO] http - ::1 POST /api/createProduct 201 388ms
-[2025-07-31T19:54:46.655] [INFO] http - ::1 POST /api/createProduct 201 760ms
-[2025-07-31T19:55:03.673] [ERROR] http - ::1 POST /api/createProduct 500 134ms
-[2025-07-31T20:18:28.769] [ERROR] http - ::1 POST /api/createProduct 500 911ms
-[2025-07-31T20:19:20.601] [ERROR] http - ::1 POST /api/createProduct 500 126ms
-[2025-07-31T20:22:53.769] [ERROR] http - ::1 POST /api/createProduct 500 116ms
-[2025-07-31T20:23:35.732] [INFO] http - ::1 POST /api/createProduct 201 351ms
-[2025-07-31T20:26:34.596] [INFO] http - ::1 POST /api/createProduct 201 2364ms
+[2025-08-26T18:55:16.235] [INFO] http - ::1 POST /api/signup 201 1062ms
+[2025-08-26T18:58:17.522] [INFO] http - ::1 POST /api/signin 200 302ms
+[2025-08-26T19:00:56.687] [INFO] http - ::1 POST /api/createLivreur 201 327ms
+[2025-08-26T19:02:23.841] [INFO] http - ::1 POST /api/createCategories 201 370ms
+[2025-08-26T19:04:04.549] [INFO] http - ::1 POST /api/createProduct 201 386ms

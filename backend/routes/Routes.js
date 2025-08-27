@@ -9,6 +9,7 @@ const { getOneProduct, getProductsByCommercant, createProduct, updateProducts, u
 router.post("/signup", signUpCommercant);
 router.post("/signin", signIn);
 router.get('/verify-token/:token', checkAndGetUserByToken);
+
 //routes related to livreur
 router.post("/createLivreur",createLivreur);
 router.get("/getOnelivreur/:id", getLivreurById);
@@ -18,7 +19,7 @@ router.get("/getAlllivreurs", getAllLivreurs);
 router.get("/getAlllivreursByCommercants",authMiddleware.authenticate, getAllLivreursByCommercants);
 
 //relatives au categorie
-// 📦 Récupérer tous les produits du commerçant
+// routes relatives au  produits
 router.get("/getProductByCommercant",authMiddleware.authenticateCommercant,getProductsByCommercant);
 router.get("/getOneProduct/:id",authMiddleware.authenticateCommercant, getOneProduct);
 router.post("/createProduct",authMiddleware.authenticateCommercant, createProduct);
@@ -26,7 +27,7 @@ router.put("/UpdateProduct/:id",authMiddleware.authenticateCommercant, updatePro
 router.patch("/updateStockProduct/:id/stock", authMiddleware.authenticateCommercant,updateStockProducts);
 router.delete("/deleteProduct/:id", authMiddleware.authenticateCommercant,deleteProducts);
 
-
+//routes relatives au categorie
 
 router.get("/getcategoriesByCommercant", authMiddleware.authenticateCommercant, getCategoriesByCommercant);
 router.post("/createCategories", authMiddleware.authenticateCommercant, createCategorie);
