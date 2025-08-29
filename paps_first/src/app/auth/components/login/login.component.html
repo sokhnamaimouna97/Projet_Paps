@@ -1,0 +1,77 @@
+<div class="login-page">
+  <div class="left-section">
+    <div class="logo-container">
+      <div class="x-logo"></div>
+    </div>
+  </div>
+  
+  <div class="right-section">
+    <div class="login-form">
+      <h1>Log In</h1>
+      
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input 
+            type="email" 
+            id="email"
+            formControlName="email"
+            class="form-control"
+            [class.error]="loginForm.get('email')?.invalid && loginForm.get('email')?.touched"
+            placeholder="Placeholder"
+          >
+          <div *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched" 
+               class="error-text">
+            Email required and valid
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input 
+            type="password" 
+            id="password"
+            formControlName="password"
+            class="form-control"
+            [class.error]="loginForm.get('password')?.invalid && loginForm.get('password')?.touched"
+            placeholder="Placeholder"
+          >
+          <div *ngIf="loginForm.get('password')?.invalid && loginForm.get('password')?.touched" 
+               class="error-text">
+            Password required
+          </div>
+          <div class="password-hint">It must be a combination of minimum 8 letters, numbers, and symbols</div>
+        </div>
+
+        <div class="remember-me">
+          <label class="checkbox-container">
+            <input type="checkbox" formControlName="rememberMe">
+            <span class="checkbox-label">Remember me</span>
+          </label>
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+
+        <button 
+          type="submit" 
+          class="btn-primary"
+          [disabled]="loginForm.invalid || isLoading"
+        >
+          {{ isLoading ? 'Connecting...' : 'Se connecter' }}
+        </button>
+        
+        <div *ngIf="error" class="error-message">
+          {{ error }}
+        </div>
+
+        <button type="button" class="google-login-btn">
+          <img src="assets/google-icon.svg" alt="Google" class="google-icon">
+          Log in with Google
+        </button>
+      </form>
+
+      <div class="register-link">
+        <a routerLink="/register">Pas de compte ? S'inscrire</a>
+      </div>
+    </div>
+  </div>
+</div>

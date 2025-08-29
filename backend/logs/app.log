@@ -921,3 +921,1210 @@
   "responseSize": 238,
   "responsePreview": "{\"message\":\"Votre produit a été créé avec succès\",\"produit\":{\"nom\":\"khessal\",\"prix\":1500,\"image\":\"dh"
 }
+[2025-08-27T13:56:29.269] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-27T13:56:29.268Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.298340166}
+[2025-08-27T13:57:12.556] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "627ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-08-27T13:57:12.555Z",
+  "body": {
+    "prenom": "Sammba Yero Taharka",
+    "nom": "Sow",
+    "telephone": "+221778596176",
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789",
+    "nom_boutique": "Sammba Yero Taharka samy Sow",
+    "adress": "Camberene2"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 515,
+  "responseData": {
+    "message": "Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a été activé.",
+    "user": {
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "_id": "68af0eb8e326e124ec3471b6",
+      "__v": 0
+    },
+    "subscription": {
+      "start": "2025-08-27T13:57:12.280Z",
+      "end": "2025-09-26T13:57:12.280Z",
+      "status": "active"
+    }
+  }
+}
+[2025-08-27T13:57:12.558] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "629ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-08-27T13:57:12.557Z",
+  "body": {
+    "prenom": "Sammba Yero Taharka",
+    "nom": "Sow",
+    "telephone": "+221778596176",
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789",
+    "nom_boutique": "Sammba Yero Taharka samy Sow",
+    "adress": "Camberene2"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 515,
+  "responsePreview": "{\"message\":\"Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a "
+}
+[2025-08-27T20:50:57.985] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-27T20:50:57.984Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.257039625}
+[2025-08-27T20:51:11.811] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/auth/login",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T20:51:11.811Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1334,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/auth/login non trouvée",
+      "status": 404,
+      "timestamp": "2025-08-27T20:51:11.811Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/auth/login non trouvée\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:75:19\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:582:12)\n    at next (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:291:5)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:688:15\n    at next (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:276:14)\n    at Function.handle (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:186:3)\n    at router (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:60:12)",
+      "url": "/api/auth/login",
+      "method": "POST",
+      "user": "Non authentifié",
+      "body": {
+        "email": "sammbasow1999@gmail.com",
+        "password": "123456789"
+      },
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-08-27T20:51:11.812] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/auth/login",
+  "status": 404,
+  "duration": "3ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T20:51:11.812Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1334,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/auth/login non trouvée\",\"status\":404,\"timestamp\":\"20"
+}
+[2025-08-27T20:51:11.817] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/auth/login",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T20:51:11.817Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1334,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/auth/login non trouvée",
+      "status": 404,
+      "timestamp": "2025-08-27T20:51:11.817Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/auth/login non trouvée\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:75:19\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:582:12)\n    at next (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:291:5)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:688:15\n    at next (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:276:14)\n    at Function.handle (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:186:3)\n    at router (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:60:12)",
+      "url": "/api/auth/login",
+      "method": "POST",
+      "user": "Non authentifié",
+      "body": {
+        "email": "sammbasow1999@gmail.com",
+        "password": "123456789"
+      },
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-08-27T20:51:11.819] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/auth/login",
+  "status": 404,
+  "duration": "3ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T20:51:11.819Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1334,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/auth/login non trouvée\",\"status\":404,\"timestamp\":\"20"
+}
+[2025-08-27T20:52:42.423] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "700ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T20:52:42.423Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMyNzk2MiwiZXhwIjoxNzU2OTMyNzYyfQ.WpPS7jki581pdG6xOPal4IBV41lxSaQCmEXKEHYPrro",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T20:52:42.424] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "702ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T20:52:42.424Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T20:56:18.171] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "1189ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T20:56:18.169Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMyODE3OCwiZXhwIjoxNzU2OTMyOTc4fQ.ec1yBzTzdreSeNRrztujRXY9OCHPFXSUQ4PY60vafDY",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T20:56:18.172] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "1192ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T20:56:18.172Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T21:21:07.580] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "340ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:21:07.580Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMyOTY2NywiZXhwIjoxNzU2OTM0NDY3fQ.2O8_lbhVjRLNpd23UQeOupXesOcKo-hkYtE1zkdXTgs",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T21:21:07.580] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "340ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:21:07.580Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T21:22:07.044] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "21760ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:22:07.044Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMyOTcyNywiZXhwIjoxNzU2OTM0NTI3fQ.zaplZidAl6n2xPYeTCAQSLRII59L77bckMAbJaDuMk8",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T21:22:07.045] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "21761ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:22:07.045Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T21:23:11.377] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "1707ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:23:11.377Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMyOTc5MSwiZXhwIjoxNzU2OTM0NTkxfQ.hf3Avq_IrBRqVEwswpEvMnLyFoLVya8KpK9rLKMCnTg",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T21:23:11.378] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "1707ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:23:11.378Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T21:24:25.526] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "337ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:24:25.526Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMyOTg2NSwiZXhwIjoxNzU2OTM0NjY1fQ.xL665XzMJ15mFUJq0askuyklFmGcYTd6nN5SytKZ_Nk",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T21:24:25.527] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "338ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:24:25.527Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T21:29:34.451] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "350ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:29:34.451Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMzMDE3NCwiZXhwIjoxNzU2OTM0OTc0fQ.jD6VaQyt1bURPX6TvclfhA8t3ZfjZV6AEHyOdOwMhu4",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T21:29:34.451] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "350ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:29:34.451Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T21:34:10.762] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "732ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:34:10.762Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMzMDQ1MCwiZXhwIjoxNzU2OTM1MjUwfQ.Fmj3TBlMe3X0m6W-dxUDgmd3ixWTu56UNHCwV3UEmWA",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T21:34:10.762] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "733ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:34:10.762Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T21:35:54.091] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "340ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:35:54.091Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMzMDU1NCwiZXhwIjoxNzU2OTM1MzU0fQ.A7_HoUjkEeyQAgCptaWe4zn-noaUYlgjzdQyBk3CNsM",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T21:35:54.091] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "341ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:35:54.091Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T21:41:22.687] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "1140ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:41:22.687Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMzMDg4MiwiZXhwIjoxNzU2OTM1NjgyfQ.rw1eMBwouIb1hQG073ca4O86huiLf5lcUpF-Tc9aPL4",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T21:41:22.688] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "1142ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-27T21:41:22.688Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T22:05:06.323] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-27T22:05:06.322Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.277554167}
+[2025-08-27T22:12:10.558] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "290ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T22:12:10.558Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMzMjczMCwiZXhwIjoxNzU2OTM3NTMwfQ.oM8JHiDDBazWpNbrDp_Cj_l06Nv2S59qWVhL8hWDWzE",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T22:12:10.559] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "292ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T22:12:10.559Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T22:40:14.239] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "285ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T22:40:14.239Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMzNDQxNCwiZXhwIjoxNzU2OTM5MjE0fQ.TvSXXiZ8TT0YOPyc5L6O_eRI89pSUFzu8nE1GgNKsK4",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T22:40:14.240] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "286ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T22:40:14.240Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-27T22:44:15.654] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "595ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T22:44:15.654Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZTMyNmUxMjRlYzM0NzFiNiIsImVtYWlsIjoic2FtbWJhc293MTk5OUBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1NjMzNDY1NSwiZXhwIjoxNzU2OTM5NDU1fQ.HRW5FKvM0jDNK20E4vgaBehA0bV-neIz1uDPaKRPMxQ",
+    "user": {
+      "_id": "68af0eb8e326e124ec3471b6",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "+221778596176",
+      "email": "sammbasow1999@gmail.com",
+      "password": "$2b$10$SK2l/0Hq7rLrvZWh2t7t.OGuwJuR22txmRZb9/LDgklH7w0qZo3Oq",
+      "commercant_id": "68af0eb8e326e124ec3471b2",
+      "__v": 0
+    }
+  }
+}
+[2025-08-27T22:44:15.655] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "596ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-27T22:44:15.655Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 579,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWYwZWI4ZT"
+}
+[2025-08-29T13:52:54.989] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-29T13:52:54.988Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.270106875}
+[2025-08-29T14:13:40.569] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "459ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T14:13:40.568Z",
+  "body": {
+    "prenom": "Sammba Yero Taharka",
+    "nom": "Sow",
+    "telephone": "778596176",
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1",
+    "nom_boutique": "Sammba Yero Taha",
+    "adress": "Camberene2"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 507,
+  "responseData": {
+    "message": "Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a été activé.",
+    "user": {
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "778596176",
+      "email": "sammbasow@gmail.com",
+      "password": "$2b$10$3oZDKpyxxvAYoFsvQSqxMOjJymGvIhzpHVy3wa1VwAVm1feRVR0xq",
+      "commercant_id": "68b1b5941adc20dd94023a62",
+      "_id": "68b1b5941adc20dd94023a66",
+      "__v": 0
+    },
+    "subscription": {
+      "start": "2025-08-29T14:13:40.412Z",
+      "end": "2025-09-28T14:13:40.412Z",
+      "status": "active"
+    }
+  }
+}
+[2025-08-29T14:13:40.571] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "463ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T14:13:40.571Z",
+  "body": {
+    "prenom": "Sammba Yero Taharka",
+    "nom": "Sow",
+    "telephone": "778596176",
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1",
+    "nom_boutique": "Sammba Yero Taha",
+    "adress": "Camberene2"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 507,
+  "responsePreview": "{\"message\":\"Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a "
+}
+[2025-08-29T14:16:15.969] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "168ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T14:16:15.969Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responseData": {
+    "message": "Email ou mot de passe incorrect."
+  }
+}
+[2025-08-29T14:16:15.970] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "169ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T14:16:15.970Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responsePreview": "{\"message\":\"Email ou mot de passe incorrect.\"}"
+}
+[2025-08-29T14:16:27.432] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "248ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T14:16:27.432Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 565,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MWFkYzIwZGQ5NDAyM2E2NiIsImVtYWlsIjoic2FtbWJhc293QGdtYWlsLmNvbSIsInJvbGUiOiJjb21tZXJjYW50IiwiaWF0IjoxNzU2NDc2OTg3LCJleHAiOjE3NTcwODE3ODd9.X781lMZc3iqBUdqBZ9mCdmlHTvT6u7CU4i5Iwvlbp0s",
+    "user": {
+      "_id": "68b1b5941adc20dd94023a66",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "778596176",
+      "email": "sammbasow@gmail.com",
+      "password": "$2b$10$3oZDKpyxxvAYoFsvQSqxMOjJymGvIhzpHVy3wa1VwAVm1feRVR0xq",
+      "commercant_id": "68b1b5941adc20dd94023a62",
+      "__v": 0
+    }
+  }
+}
+[2025-08-29T14:16:27.433] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "249ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T14:16:27.433Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 565,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MW"
+}
+[2025-08-29T19:49:29.544] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-08-29T19:49:29.543Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.270058625}
+[2025-08-29T20:10:11.599] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "171ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-29T20:10:11.598Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responseData": {
+    "message": "Email ou mot de passe incorrect."
+  }
+}
+[2025-08-29T20:10:11.600] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "173ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-29T20:10:11.600Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "123456789"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responsePreview": "{\"message\":\"Email ou mot de passe incorrect.\"}"
+}
+[2025-08-29T20:10:22.551] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "247ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-29T20:10:22.551Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 565,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MWFkYzIwZGQ5NDAyM2E2NiIsImVtYWlsIjoic2FtbWJhc293QGdtYWlsLmNvbSIsInJvbGUiOiJjb21tZXJjYW50IiwiaWF0IjoxNzU2NDk4MjIyLCJleHAiOjE3NTcxMDMwMjJ9.3f-S02tcZWOPfeVBtcIp1_lB4vuuaCjMY11i0cqs6NE",
+    "user": {
+      "_id": "68b1b5941adc20dd94023a66",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "778596176",
+      "email": "sammbasow@gmail.com",
+      "password": "$2b$10$3oZDKpyxxvAYoFsvQSqxMOjJymGvIhzpHVy3wa1VwAVm1feRVR0xq",
+      "commercant_id": "68b1b5941adc20dd94023a62",
+      "__v": 0
+    }
+  }
+}
+[2025-08-29T20:10:22.552] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "248ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-08-29T20:10:22.552Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 565,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MW"
+}
+[2025-08-29T20:12:45.386] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "167ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T20:12:45.386Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@!"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responseData": {
+    "message": "Email ou mot de passe incorrect."
+  }
+}
+[2025-08-29T20:12:45.387] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "168ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T20:12:45.387Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@!"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responsePreview": "{\"message\":\"Email ou mot de passe incorrect.\"}"
+}
+[2025-08-29T20:12:55.848] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "241ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T20:12:55.848Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 565,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MWFkYzIwZGQ5NDAyM2E2NiIsImVtYWlsIjoic2FtbWJhc293QGdtYWlsLmNvbSIsInJvbGUiOiJjb21tZXJjYW50IiwiaWF0IjoxNzU2NDk4Mzc1LCJleHAiOjE3NTcxMDMxNzV9.lYc_dL9PsuhW6-jDjp4BPKpMYfcTrikxDSCpWprHRio",
+    "user": {
+      "_id": "68b1b5941adc20dd94023a66",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "778596176",
+      "email": "sammbasow@gmail.com",
+      "password": "$2b$10$3oZDKpyxxvAYoFsvQSqxMOjJymGvIhzpHVy3wa1VwAVm1feRVR0xq",
+      "commercant_id": "68b1b5941adc20dd94023a62",
+      "__v": 0
+    }
+  }
+}
+[2025-08-29T20:12:55.849] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "242ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T20:12:55.849Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 565,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MW"
+}
+[2025-08-29T20:13:30.034] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "230ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T20:13:30.033Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 565,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MWFkYzIwZGQ5NDAyM2E2NiIsImVtYWlsIjoic2FtbWJhc293QGdtYWlsLmNvbSIsInJvbGUiOiJjb21tZXJjYW50IiwiaWF0IjoxNzU2NDk4NDEwLCJleHAiOjE3NTcxMDMyMTB9.W7KEbn48eeiVnvRijqsP-4idlVhHN4mVRkFOAhe46L0",
+    "user": {
+      "_id": "68b1b5941adc20dd94023a66",
+      "prenom": "Sammba Yero Taharka",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "778596176",
+      "email": "sammbasow@gmail.com",
+      "password": "$2b$10$3oZDKpyxxvAYoFsvQSqxMOjJymGvIhzpHVy3wa1VwAVm1feRVR0xq",
+      "commercant_id": "68b1b5941adc20dd94023a62",
+      "__v": 0
+    }
+  }
+}
+[2025-08-29T20:13:30.034] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "231ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+  "timestamp": "2025-08-29T20:13:30.034Z",
+  "body": {
+    "email": "sammbasow@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 565,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MW"
+}

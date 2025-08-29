@@ -1,0 +1,173 @@
+<div class="register-page">
+  <div class="left-section">
+    <div class="logo-container">
+      <div class="x-logo"></div>
+    </div>
+  </div>
+  
+  <div class="right-section">
+    <div class="register-form">
+      <h1>Sign Up</h1>
+      
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <!-- Informations personnelles -->
+        <div class="form-section">
+          <h3>Informations personnelles</h3>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prenom">Prénom</label>
+              <input 
+                type="text" 
+                id="prenom"
+                formControlName="prenom"
+                class="form-control"
+                [class.error]="isFieldInvalid('prenom')"
+                placeholder="Placeholder"
+              >
+              <div *ngIf="isFieldInvalid('prenom')" class="error-text">
+                {{ getFieldError('prenom') }}
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="nom">Nom</label>
+              <input 
+                type="text" 
+                id="nom"
+                formControlName="nom"
+                class="form-control"
+                [class.error]="isFieldInvalid('nom')"
+                placeholder="Placeholder"
+              >
+              <div *ngIf="isFieldInvalid('nom')" class="error-text">
+                {{ getFieldError('nom') }}
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="telephone">Téléphone</label>
+            <input 
+              type="tel" 
+              id="telephone"
+              formControlName="telephone"
+              class="form-control"
+              [class.error]="isFieldInvalid('telephone')"
+              placeholder="Placeholder"
+            >
+            <div *ngIf="isFieldInvalid('telephone')" class="error-text">
+              {{ getFieldError('telephone') }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input 
+              type="email" 
+              id="email"
+              formControlName="email"
+              class="form-control"
+              [class.error]="isFieldInvalid('email')"
+              placeholder="Placeholder"
+            >
+            <div *ngIf="isFieldInvalid('email')" class="error-text">
+              {{ getFieldError('email') }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Informations boutique -->
+        <div class="form-section">
+          <h3>Informations boutique</h3>
+          
+          <div class="form-group">
+            <label for="nom_boutique">Nom de la boutique</label>
+            <input 
+              type="text" 
+              id="nom_boutique"
+              formControlName="nom_boutique"
+              class="form-control"
+              [class.error]="isFieldInvalid('nom_boutique')"
+              placeholder="Placeholder"
+            >
+            <div *ngIf="isFieldInvalid('nom_boutique')" class="error-text">
+              {{ getFieldError('nom_boutique') }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="adress">Adresse</label>
+            <input 
+              type="text"
+              id="adress"
+              formControlName="adress"
+              class="form-control"
+              [class.error]="isFieldInvalid('adress')"
+              placeholder="Placeholder"
+            >
+            <div *ngIf="isFieldInvalid('adress')" class="error-text">
+              {{ getFieldError('adress') }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Mot de passe -->
+        <div class="form-section">
+          <h3>Sécurité</h3>
+          
+          <div class="form-group">
+            <label for="password">Mot de passe</label>
+            <input 
+              type="password" 
+              id="password"
+              formControlName="password"
+              class="form-control"
+              [class.error]="isFieldInvalid('password')"
+              placeholder="Placeholder"
+            >
+            <div class="password-hint">It must be a combination of minimum 8 letters, numbers, and symbols</div>
+            <div *ngIf="isFieldInvalid('password')" class="error-text">
+              {{ getFieldError('password') }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="confirmPassword">Confirmer le mot de passe</label>
+            <input 
+              type="password" 
+              id="confirmPassword"
+              formControlName="confirmPassword"
+              class="form-control"
+              [class.error]="isFieldInvalid('confirmPassword')"
+              placeholder="Placeholder"
+            >
+            <div *ngIf="isFieldInvalid('confirmPassword')" class="error-text">
+              {{ getFieldError('confirmPassword') }}
+            </div>
+          </div>
+        </div>
+
+        <button 
+          type="submit" 
+          class="btn-primary"
+          [disabled]="registerForm.invalid || isLoading"
+        >
+          {{ isLoading ? 'Creating account...' : "Create Account" }}
+        </button>
+
+        <div *ngIf="error" class="error-message">
+          {{ error }}
+        </div>
+
+        <div *ngIf="success" class="success-message">
+          {{ success }}
+        </div>
+      </form>
+
+      <div class="register-links">
+        <a routerLink="/auth/login">Already have an account? Log in</a>
+      </div>
+    </div>
+  </div>
+</div>
