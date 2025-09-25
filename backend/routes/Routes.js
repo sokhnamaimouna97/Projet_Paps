@@ -18,7 +18,7 @@ router.delete("/deletelivreur/:id", deleteLivreur);
 router.get("/getAlllivreurs", getAllLivreurs);
 router.get("/getAlllivreursByCommercants",authMiddleware.authenticate, getAllLivreursByCommercants);
 
-//relatives au categorie
+//relatives au categoriejghh
 // routes relatives au  produits
 router.get("/getProductByCommercant",authMiddleware.authenticateCommercant,getProductsByCommercant);
 router.get("/getOneProduct/:id",authMiddleware.authenticateCommercant, getOneProduct);
