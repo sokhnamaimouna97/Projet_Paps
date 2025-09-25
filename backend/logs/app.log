@@ -2128,3 +2128,2093 @@
   "responseSize": 565,
   "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YjFiNTk0MW"
 }
+[2025-09-03T18:20:25.758] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-03T18:20:25.758Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.290982709}
+[2025-09-03T18:22:50.454] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "168ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T18:22:50.454Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responseData": {
+    "message": "Email ou mot de passe incorrect."
+  }
+}
+[2025-09-03T18:22:50.455] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "169ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T18:22:50.455Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responsePreview": "{\"message\":\"Email ou mot de passe incorrect.\"}"
+}
+[2025-09-03T18:22:58.137] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "71ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T18:22:58.137Z",
+  "body": {
+    "email": "sammbasow953@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responseData": {
+    "message": "Email ou mot de passe incorrect."
+  }
+}
+[2025-09-03T18:22:58.138] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "72ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T18:22:58.138Z",
+  "body": {
+    "email": "sammbasow953@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responsePreview": "{\"message\":\"Email ou mot de passe incorrect.\"}"
+}
+[2025-09-03T18:24:38.012] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "402ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T18:24:38.012Z",
+  "body": {
+    "prenom": "fatoua",
+    "nom": "diouf",
+    "telephone": "778596176",
+    "email": "sammba@gmail.com",
+    "password": "Rozaay8642@1",
+    "nom_boutique": "Dey daw",
+    "adress": "Camberene2"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 493,
+  "responseData": {
+    "message": "Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a été activé.",
+    "user": {
+      "prenom": "fatoua",
+      "nom": "diouf",
+      "role": "commercant",
+      "telephone": "778596176",
+      "email": "sammba@gmail.com",
+      "password": "$2b$10$TCNhEWg0Qu4jNZ4IobRghOpBcUuaA1P5qI86JVr87907WDzOF8U/6",
+      "commercant_id": "68b887e5b2b0465b2538987b",
+      "_id": "68b887e5b2b0465b2538987f",
+      "__v": 0
+    },
+    "subscription": {
+      "start": "2025-09-03T18:24:37.857Z",
+      "end": "2025-10-03T18:24:37.857Z",
+      "status": "active"
+    }
+  }
+}
+[2025-09-03T18:24:38.014] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "405ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T18:24:38.014Z",
+  "body": {
+    "prenom": "fatoua",
+    "nom": "diouf",
+    "telephone": "778596176",
+    "email": "sammba@gmail.com",
+    "password": "Rozaay8642@1",
+    "nom_boutique": "Dey daw",
+    "adress": "Camberene2"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 493,
+  "responsePreview": "{\"message\":\"Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a "
+}
+[2025-09-03T18:24:56.895] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "243ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T18:24:56.895Z",
+  "body": {
+    "email": "sammba@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 547,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg4N2U1YjJiMDQ2NWIyNTM4OTg3ZiIsImVtYWlsIjoic2FtbWJhQGdtYWlsLmNvbSIsInJvbGUiOiJjb21tZXJjYW50IiwiaWF0IjoxNzU2OTIzODk2LCJleHAiOjE3NTc1Mjg2OTZ9.z5DzBBWH60A-hRfb1s1fxne9SQXtScTj_MZAGbXkqIE",
+    "user": {
+      "_id": "68b887e5b2b0465b2538987f",
+      "prenom": "fatoua",
+      "nom": "diouf",
+      "role": "commercant",
+      "telephone": "778596176",
+      "email": "sammba@gmail.com",
+      "password": "$2b$10$TCNhEWg0Qu4jNZ4IobRghOpBcUuaA1P5qI86JVr87907WDzOF8U/6",
+      "commercant_id": "68b887e5b2b0465b2538987b",
+      "__v": 0
+    }
+  }
+}
+[2025-09-03T18:24:56.896] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "244ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-03T18:24:56.896Z",
+  "body": {
+    "email": "sammba@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 547,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4Yjg4N2U1Yj"
+}
+[2025-09-17T14:56:01.910] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-17T14:56:01.909Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.286689208}
+[2025-09-17T14:56:25.918] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "186ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T14:56:25.917Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responseData": {
+    "message": "Email ou mot de passe incorrect."
+  }
+}
+[2025-09-17T14:56:25.918] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "187ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T14:56:25.918Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "Rozaay8642@1"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responsePreview": "{\"message\":\"Email ou mot de passe incorrect.\"}"
+}
+[2025-09-17T14:56:34.027] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "174ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T14:56:34.027Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responseData": {
+    "message": "Email ou mot de passe incorrect."
+  }
+}
+[2025-09-17T14:56:34.028] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "175ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T14:56:34.028Z",
+  "body": {
+    "email": "sammbasow1999@gmail.com",
+    "password": "passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responsePreview": "{\"message\":\"Email ou mot de passe incorrect.\"}"
+}
+[2025-09-17T15:21:29.984] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-17T15:21:29.978Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.29074475}
+[2025-09-17T15:55:16.476] [INFO] detailed - {
+  "method": "POST",
+  "url": "/auth/signin",
+  "status": 404,
+  "duration": "5ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:55:16.476Z",
+  "body": {
+    "email": "sammbasow953@gmail.com",
+    "password": "hgfghfgh"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1307,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /auth/signin non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-17T15:55:16.475Z"
+    },
+    "debug": {
+      "stack": "Error: Route /auth/signin non trouvée\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:75:19\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:582:12)\n    at next (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:291:5)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:59:5\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9",
+      "url": "/auth/signin",
+      "method": "POST",
+      "user": "Non authentifié",
+      "body": {
+        "email": "sammbasow953@gmail.com",
+        "password": "hgfghfgh"
+      },
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-17T15:55:16.476] [INFO] detailed - {
+  "method": "POST",
+  "url": "/auth/signin",
+  "status": 404,
+  "duration": "5ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:55:16.476Z",
+  "body": {
+    "email": "sammbasow953@gmail.com",
+    "password": "hgfghfgh"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1307,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /auth/signin non trouvée\",\"status\":404,\"timestamp\":\"2025-"
+}
+[2025-09-17T15:55:26.846] [INFO] detailed - {
+  "method": "POST",
+  "url": "/auth/signin",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:55:26.846Z",
+  "body": {
+    "email": "sammbasow953@gmail.com",
+    "password": "passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1308,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /auth/signin non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-17T15:55:26.846Z"
+    },
+    "debug": {
+      "stack": "Error: Route /auth/signin non trouvée\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:75:19\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:582:12)\n    at next (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:291:5)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:59:5\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9",
+      "url": "/auth/signin",
+      "method": "POST",
+      "user": "Non authentifié",
+      "body": {
+        "email": "sammbasow953@gmail.com",
+        "password": "passer123"
+      },
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-17T15:55:26.847] [INFO] detailed - {
+  "method": "POST",
+  "url": "/auth/signin",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:55:26.847Z",
+  "body": {
+    "email": "sammbasow953@gmail.com",
+    "password": "passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1308,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /auth/signin non trouvée\",\"status\":404,\"timestamp\":\"2025-"
+}
+[2025-09-17T15:56:20.877] [INFO] detailed - {
+  "method": "POST",
+  "url": "/auth/signin",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:56:20.877Z",
+  "body": {
+    "email": "samba@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1311,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /auth/signin non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-17T15:56:20.877Z"
+    },
+    "debug": {
+      "stack": "Error: Route /auth/signin non trouvée\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:75:19\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:582:12)\n    at next (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:291:5)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/index.js:59:5\n    at Layer.handleRequest (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:342:13)\n    at /Users/mac/Desktop/Workspace/Edacy/Paps/backend/node_modules/router/index.js:297:9",
+      "url": "/auth/signin",
+      "method": "POST",
+      "user": "Non authentifié",
+      "body": {
+        "email": "samba@example.com",
+        "password": "MotDePasseFort123"
+      },
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-17T15:56:20.878] [INFO] detailed - {
+  "method": "POST",
+  "url": "/auth/signin",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:56:20.878Z",
+  "body": {
+    "email": "samba@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1311,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /auth/signin non trouvée\",\"status\":404,\"timestamp\":\"2025-"
+}
+[2025-09-17T15:58:15.268] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "291ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:58:15.268Z",
+  "body": {
+    "email": "samba@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 41,
+  "responseData": {
+    "message": "Votre abonnement a expiré."
+  }
+}
+[2025-09-17T15:58:15.269] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "292ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:58:15.269Z",
+  "body": {
+    "email": "samba@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 41,
+  "responsePreview": "{\"message\":\"Votre abonnement a expiré.\"}"
+}
+[2025-09-17T15:58:41.463] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "259ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:58:41.463Z",
+  "body": {
+    "email": "sambabbb@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 41,
+  "responseData": {
+    "message": "Votre abonnement a expiré."
+  }
+}
+[2025-09-17T15:58:41.463] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "259ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T15:58:41.463Z",
+  "body": {
+    "email": "sambabbb@example.com",
+    "password": "MotDePasseFort123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 41,
+  "responsePreview": "{\"message\":\"Votre abonnement a expiré.\"}"
+}
+[2025-09-17T16:00:01.177] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "236ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T16:00:01.177Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2ZiNWU5MDhhMDQyMWFiZSIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODEyNDgwMSwiZXhwIjoxNzU4NzI5NjAxfQ.XqGDMnKN8lrds2B0NZ5QUFrWCMjsTowwaqQd9dUMR10",
+    "user": {
+      "_id": "68ae0314cfb5e908a0421abe",
+      "prenom": "Ali",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "test@gmail.com",
+      "password": "$2b$10$FI4E1O2ZaRXBWlVNPsHSduzsOQQJWc7C0/Y24Uo84DjiUvlV4jVhe",
+      "commercant_id": "68ae0313cfb5e908a0421aba",
+      "__v": 0
+    }
+  }
+}
+[2025-09-17T16:00:01.177] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "237ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T16:00:01.177Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2"
+}
+[2025-09-17T16:03:16.379] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "180ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T16:03:16.378Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responseData": {
+    "message": "Email ou mot de passe incorrect."
+  }
+}
+[2025-09-17T16:03:16.379] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "181ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T16:03:16.379Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responsePreview": "{\"message\":\"Email ou mot de passe incorrect.\"}"
+}
+[2025-09-17T16:03:24.546] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "195ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-09-17T16:03:24.546Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responseData": {
+    "message": "Email ou mot de passe incorrect."
+  }
+}
+[2025-09-17T16:03:24.546] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 401,
+  "duration": "195ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-09-17T16:03:24.546Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 46,
+  "responsePreview": "{\"message\":\"Email ou mot de passe incorrect.\"}"
+}
+[2025-09-17T16:04:00.369] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "247ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-09-17T16:04:00.368Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2ZiNWU5MDhhMDQyMWFiZSIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODEyNTA0MCwiZXhwIjoxNzU4NzI5ODQwfQ.oIufT7hBtfXuBKzZ73mQmFdHvxzcg4EJ8mhD_GZAv-k",
+    "user": {
+      "_id": "68ae0314cfb5e908a0421abe",
+      "prenom": "Ali",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "test@gmail.com",
+      "password": "$2b$10$FI4E1O2ZaRXBWlVNPsHSduzsOQQJWc7C0/Y24Uo84DjiUvlV4jVhe",
+      "commercant_id": "68ae0313cfb5e908a0421aba",
+      "__v": 0
+    }
+  }
+}
+[2025-09-17T16:04:00.369] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "248ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-09-17T16:04:00.369Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2"
+}
+[2025-09-17T16:06:45.332] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "261ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-09-17T16:06:45.332Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2ZiNWU5MDhhMDQyMWFiZSIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODEyNTIwNSwiZXhwIjoxNzU4NzMwMDA1fQ.CBdNCQiX1oAXbksth9J-8JUmcsxmPdz8XsMWmO8JEvg",
+    "user": {
+      "_id": "68ae0314cfb5e908a0421abe",
+      "prenom": "Ali",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "test@gmail.com",
+      "password": "$2b$10$FI4E1O2ZaRXBWlVNPsHSduzsOQQJWc7C0/Y24Uo84DjiUvlV4jVhe",
+      "commercant_id": "68ae0313cfb5e908a0421aba",
+      "__v": 0
+    }
+  }
+}
+[2025-09-17T16:06:45.333] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "262ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-09-17T16:06:45.333Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2"
+}
+[2025-09-17T16:08:25.229] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "259ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T16:08:25.229Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2ZiNWU5MDhhMDQyMWFiZSIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODEyNTMwNSwiZXhwIjoxNzU4NzMwMTA1fQ.RpQ-dPeZ3IfhUzrSrAelenooSDj1hE00yREdpJ7s4kE",
+    "user": {
+      "_id": "68ae0314cfb5e908a0421abe",
+      "prenom": "Ali",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "test@gmail.com",
+      "password": "$2b$10$FI4E1O2ZaRXBWlVNPsHSduzsOQQJWc7C0/Y24Uo84DjiUvlV4jVhe",
+      "commercant_id": "68ae0313cfb5e908a0421aba",
+      "__v": 0
+    }
+  }
+}
+[2025-09-17T16:08:25.230] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "260ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T16:08:25.230Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2"
+}
+[2025-09-17T19:43:43.068] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-17T19:43:43.067Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.284934083}
+[2025-09-17T19:56:45.093] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 500,
+  "duration": "741ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T19:56:45.093Z",
+  "body": {
+    "prenom": "Sammba",
+    "nom": "Sow",
+    "email": "sammbasow@gmail.com",
+    "password": "123456789",
+    "telephone": "+221778596176"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 401,
+  "responseData": {
+    "error": "Erreur lors de la création du livreur",
+    "details": {
+      "errorLabelSet": {},
+      "errorResponse": {
+        "index": 0,
+        "code": 11000,
+        "errmsg": "E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"sammbasow@gmail.com\" }",
+        "keyPattern": {
+          "email": 1
+        },
+        "keyValue": {
+          "email": "sammbasow@gmail.com"
+        }
+      },
+      "index": 0,
+      "code": 11000,
+      "keyPattern": {
+        "email": 1
+      },
+      "keyValue": {
+        "email": "sammbasow@gmail.com"
+      }
+    }
+  }
+}
+[2025-09-17T19:56:45.095] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 500,
+  "duration": "744ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T19:56:45.095Z",
+  "body": {
+    "prenom": "Sammba",
+    "nom": "Sow",
+    "email": "sammbasow@gmail.com",
+    "password": "123456789",
+    "telephone": "+221778596176"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 401,
+  "responsePreview": "{\"error\":\"Erreur lors de la création du livreur\",\"details\":{\"errorLabelSet\":{},\"errorResponse\":{\"ind"
+}
+[2025-09-17T19:57:57.721] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-17T19:57:57.720Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.268012375}
+[2025-09-17T19:58:24.896] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-17T19:58:24.895Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.242688125}
+[2025-09-17T19:59:14.495] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "888ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T19:59:14.495Z",
+  "body": {
+    "prenom": "Sammba",
+    "nom": "Sow",
+    "email": "sa3@gmail.com",
+    "password": "123456789",
+    "telephone": "+22177859617655"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 375,
+  "responseData": {
+    "message": "Livreur et utilisateur créés avec succès",
+    "livreur": {
+      "_id": "68cb1311614f11e361c2b7a2",
+      "__v": 0
+    },
+    "user": {
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "role": "livreur",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com",
+      "password": "$2b$10$i34wduE2eS8neFVlYkiF7e8twgb5my1RpCcwPfc0SP/49RVd5mf6i",
+      "livreur_id": "68cb1311614f11e361c2b7a2",
+      "_id": "68cb1312614f11e361c2b7a4",
+      "__v": 0
+    }
+  }
+}
+[2025-09-17T19:59:14.497] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "891ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T19:59:14.497Z",
+  "body": {
+    "prenom": "Sammba",
+    "nom": "Sow",
+    "email": "sa3@gmail.com",
+    "password": "123456789",
+    "telephone": "+22177859617655"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 375,
+  "responsePreview": "{\"message\":\"Livreur et utilisateur créés avec succès\",\"livreur\":{\"_id\":\"68cb1311614f11e361c2b7a2\",\"_"
+}
+[2025-09-17T20:34:43.796] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-17T20:34:43.795Z","port":"5000","env":"development","nodeVersion":"v22.12.0","uptime":0.287815958}
+[2025-09-17T20:35:23.345] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "268ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-09-17T20:35:23.345Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2ZiNWU5MDhhMDQyMWFiZSIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODE0MTMyMywiZXhwIjoxNzU4NzQ2MTIzfQ.lMKuUaQmSUU5_VsKGYtiOPIgqw0nBm5zvbMBpWSJ2Vc",
+    "user": {
+      "_id": "68ae0314cfb5e908a0421abe",
+      "prenom": "Ali",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "test@gmail.com",
+      "password": "$2b$10$FI4E1O2ZaRXBWlVNPsHSduzsOQQJWc7C0/Y24Uo84DjiUvlV4jVhe",
+      "commercant_id": "68ae0313cfb5e908a0421aba",
+      "__v": 0
+    }
+  }
+}
+[2025-09-17T20:35:23.346] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "269ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+  "timestamp": "2025-09-17T20:35:23.346Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2"
+}
+[2025-09-17T20:39:44.017] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "176ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:39:44.017Z",
+  "query": {},
+  "params": {},
+  "responseSize": 627,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:39:44.018] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "178ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:39:44.018Z",
+  "query": {},
+  "params": {},
+  "responseSize": 627,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:39:44.597] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "160ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:39:44.597Z",
+  "query": {},
+  "params": {},
+  "responseSize": 627,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:39:44.597] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "160ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:39:44.597Z",
+  "query": {},
+  "params": {},
+  "responseSize": 627,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:39:49.460] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "163ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:39:49.460Z",
+  "query": {},
+  "params": {},
+  "responseSize": 627,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:39:49.461] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "164ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:39:49.461Z",
+  "query": {},
+  "params": {},
+  "responseSize": 627,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:41:36.825] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "282ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:41:36.825Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2ZiNWU5MDhhMDQyMWFiZSIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODE0MTY5NiwiZXhwIjoxNzU4NzQ2NDk2fQ.zQfvV3TRwKfnGdRf_XU7o1-BH4hVzgk5s6xURsqgT-o",
+    "user": {
+      "_id": "68ae0314cfb5e908a0421abe",
+      "prenom": "Ali",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "test@gmail.com",
+      "password": "$2b$10$FI4E1O2ZaRXBWlVNPsHSduzsOQQJWc7C0/Y24Uo84DjiUvlV4jVhe",
+      "commercant_id": "68ae0313cfb5e908a0421aba",
+      "__v": 0
+    }
+  }
+}
+[2025-09-17T20:41:36.826] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "283ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:41:36.826Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2"
+}
+[2025-09-17T20:41:55.384] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "212ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:41:55.384Z",
+  "query": {},
+  "params": {},
+  "responseSize": 627,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:41:55.385] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "213ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:41:55.385Z",
+  "query": {},
+  "params": {},
+  "responseSize": 627,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:42:23.133] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "360ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:42:23.133Z",
+  "body": {
+    "prenom": "Sammba",
+    "nom": "Sow",
+    "email": "fatou@gmail.com",
+    "password": "Rozaa8642",
+    "telephone": "+221778596176555"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 378,
+  "responseData": {
+    "message": "Livreur et utilisateur créés avec succès",
+    "livreur": {
+      "_id": "68cb1d2eaf45a327f5cf875f",
+      "__v": 0
+    },
+    "user": {
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "role": "livreur",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com",
+      "password": "$2b$10$iphB4bieZ21GVD1EMU9NsefTqnq0/GhnFRy1/8Zll7IunfZph6/Um",
+      "livreur_id": "68cb1d2eaf45a327f5cf875f",
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "__v": 0
+    }
+  }
+}
+[2025-09-17T20:42:23.134] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "361ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:42:23.134Z",
+  "body": {
+    "prenom": "Sammba",
+    "nom": "Sow",
+    "email": "fatou@gmail.com",
+    "password": "Rozaa8642",
+    "telephone": "+221778596176555"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 378,
+  "responsePreview": "{\"message\":\"Livreur et utilisateur créés avec succès\",\"livreur\":{\"_id\":\"68cb1d2eaf45a327f5cf875f\",\"_"
+}
+[2025-09-17T20:43:24.710] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "167ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:43:24.710Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:43:24.711] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "169ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:43:24.711Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:44:00.954] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "164ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:44:00.954Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:44:00.954] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "165ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:44:00.954Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:46:46.903] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "252ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:46:46.903Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2ZiNWU5MDhhMDQyMWFiZSIsImVtYWlsIjoidGVzdEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODE0MjAwNiwiZXhwIjoxNzU4NzQ2ODA2fQ.t8zq9jwpCtVQbQDMO-V58ta1pswiqRdiNQRYdlKvwoo",
+    "user": {
+      "_id": "68ae0314cfb5e908a0421abe",
+      "prenom": "Ali",
+      "nom": "Sow",
+      "role": "commercant",
+      "telephone": "771234567",
+      "email": "test@gmail.com",
+      "password": "$2b$10$FI4E1O2ZaRXBWlVNPsHSduzsOQQJWc7C0/Y24Uo84DjiUvlV4jVhe",
+      "commercant_id": "68ae0313cfb5e908a0421aba",
+      "__v": 0
+    }
+  }
+}
+[2025-09-17T20:46:46.903] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "252ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:46:46.903Z",
+  "body": {
+    "email": "test@gmail.com",
+    "password": "passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 538,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWUwMzE0Y2"
+}
+[2025-09-17T20:46:50.526] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "182ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:46:50.526Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:46:50.527] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "183ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:46:50.527Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:48:14.556] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "213ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:14.556Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:48:14.558] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "215ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:14.558Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:48:16.593] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "163ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:16.593Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:48:16.596] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "166ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:16.596Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:48:19.820] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "197ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:19.820Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:48:19.820] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "197ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:19.820Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:48:28.534] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "158ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:28.534Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:48:28.534] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "158ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:28.534Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:48:29.845] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "164ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:29.845Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:48:29.846] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "165ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:29.846Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:48:38.883] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "167ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:38.883Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:48:38.883] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "168ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:38.883Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-17T20:48:53.543] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "175ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:53.543Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    }
+  ]
+}
+[2025-09-17T20:48:53.544] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "176ms",
+  "user": "test@gmail.com (68ae0314cfb5e908a0421abe)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-17T20:48:53.544Z",
+  "query": {},
+  "params": {},
+  "responseSize": 749,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}

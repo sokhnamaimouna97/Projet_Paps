@@ -11,7 +11,7 @@ router.post("/signin", signIn);
 router.get('/verify-token/:token', checkAndGetUserByToken);
 
 //routes related to livreur
-router.post("/createLivreur",createLivreur);
+router.post("/createLivreur",authMiddleware.authenticateCommercant,createLivreur);
 router.get("/getOnelivreur/:id", getLivreurById);
 router.put("/updatelivreur/:id", updateLivreur);
 router.delete("/deletelivreur/:id", deleteLivreur);
