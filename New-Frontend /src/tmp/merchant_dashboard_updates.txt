@@ -1,0 +1,6 @@
+// Lignes à changer dans MerchantDashboard.tsx :
+
+Line 493: {order.total.toFixed(2)} € -> {order.total.toLocaleString('fr-FR')} XOF
+Line 637: {product.price.toFixed(2)} € -> {product.price.toLocaleString('fr-FR')} XOF
+
+Autres occurrences de prix à trouver et changer...
