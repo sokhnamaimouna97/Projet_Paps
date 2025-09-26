@@ -33,7 +33,7 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
   setProducts,
   merchantId,
   isPremium,
-  categories = [] // 👈 fallback tableau vide
+  categories = [] // 👈 fallback tableau vide sans element
 }) => {
   const [isAddingProduct, setIsAddingProduct] = useState(false);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);

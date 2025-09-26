@@ -8858,3 +8858,1518 @@
   "responseSize": 1621,
   "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
 }
+[2025-09-26T15:39:36.010] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-26T15:39:36.009Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":1.1650664}
+[2025-09-26T15:39:43.721] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 200,
+  "duration": "92ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T15:39:43.721Z",
+  "query": {},
+  "params": {},
+  "responseSize": 602,
+  "responseData": [
+    {
+      "_id": "688bc2eb30725a959aeae3d4",
+      "nom": "Électronique & Gadgets",
+      "__v": 0
+    },
+    {
+      "_id": "68ae04bfcfb5e908a0421ac8",
+      "nom": "Cosmetique",
+      "__v": 0
+    },
+    {
+      "_id": "68d56fc081628c921a3d01c6",
+      "nom": "legumes",
+      "__v": 0
+    },
+    {
+      "_id": "68d66dc958d49a4f3cabb479",
+      "nom": "legume",
+      "__v": 0
+    },
+    {
+      "_id": "68d66dd258d49a4f3cabb47d",
+      "nom": "loiuy",
+      "__v": 0
+    },
+    {
+      "_id": "68d6715358d49a4f3cabb483",
+      "nom": "sokhna",
+      "__v": 0
+    },
+    {
+      "_id": "68d67448ed2dad15847951a8",
+      "nom": "koutre",
+      "__v": 0
+    },
+    {
+      "_id": "68d67455ed2dad15847951ac",
+      "nom": "guytez",
+      "__v": 0
+    },
+    {
+      "_id": "68d67698ed2dad15847951b0",
+      "nom": "eerthnb",
+      "__v": 0
+    },
+    {
+      "_id": "68d676a1ed2dad15847951b4",
+      "nom": "dreza",
+      "__v": 0
+    }
+  ]
+}
+[2025-09-26T15:39:43.723] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 200,
+  "duration": "95ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T15:39:43.723Z",
+  "query": {},
+  "params": {},
+  "responseSize": 602,
+  "responsePreview": "[{\"_id\":\"688bc2eb30725a959aeae3d4\",\"nom\":\"Électronique & Gadgets\",\"__v\":0},{\"_id\":\"68ae04bfcfb5e908a"
+}
+[2025-09-26T15:41:14.813] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "249ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:41:14.813Z",
+  "body": {
+    "nom": "guyiop"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "guyiop",
+      "_id": "68d6b41a63b51f3214d3cb59",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T15:41:14.816] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "252ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:41:14.816Z",
+  "body": {
+    "nom": "guyiop"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"guyiop\",\"_id\":\"68d6b41a63b5"
+}
+[2025-09-26T15:57:00.622] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategoriesByCommercants",
+  "status": 404,
+  "duration": "3ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:57:00.622Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1663,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategoriesByCommercants non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T15:57:00.621Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategoriesByCommercants non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategoriesByCommercants",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T15:57:00.623] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategoriesByCommercants",
+  "status": 404,
+  "duration": "4ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:57:00.623Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1663,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategoriesByCommercants non trouvée\",\"status\":"
+}
+[2025-09-26T15:58:53.164] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "151ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:58:53.164Z",
+  "query": {},
+  "params": {},
+  "responseSize": 741,
+  "responseData": {
+    "message": "Vos catégories récupérées avec succès",
+    "categories": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      },
+      {
+        "_id": "68d56fc081628c921a3d01c6",
+        "nom": "legumes",
+        "__v": 0
+      },
+      {
+        "_id": "68d66dc958d49a4f3cabb479",
+        "nom": "legume",
+        "__v": 0
+      },
+      {
+        "_id": "68d66dd258d49a4f3cabb47d",
+        "nom": "loiuy",
+        "__v": 0
+      },
+      {
+        "_id": "68d6715358d49a4f3cabb483",
+        "nom": "sokhna",
+        "__v": 0
+      },
+      {
+        "_id": "68d67448ed2dad15847951a8",
+        "nom": "koutre",
+        "__v": 0
+      },
+      {
+        "_id": "68d67455ed2dad15847951ac",
+        "nom": "guytez",
+        "__v": 0
+      },
+      {
+        "_id": "68d67698ed2dad15847951b0",
+        "nom": "eerthnb",
+        "__v": 0
+      },
+      {
+        "_id": "68d676a1ed2dad15847951b4",
+        "nom": "dreza",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b41a63b51f3214d3cb59",
+        "nom": "guyiop",
+        "__v": 0
+      }
+    ],
+    "total": 11
+  }
+}
+[2025-09-26T15:58:53.167] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "154ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:58:53.167Z",
+  "query": {},
+  "params": {},
+  "responseSize": 741,
+  "responsePreview": "{\"message\":\"Vos catégories récupérées avec succès\",\"categories\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\""
+}
+[2025-09-26T15:59:18.464] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "155ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:59:18.464Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-26T15:59:18.466] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "157ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:59:18.466Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-26T15:59:25.622] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "154ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:59:25.621Z",
+  "query": {},
+  "params": {},
+  "responseSize": 741,
+  "responseData": {
+    "message": "Vos catégories récupérées avec succès",
+    "categories": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      },
+      {
+        "_id": "68d56fc081628c921a3d01c6",
+        "nom": "legumes",
+        "__v": 0
+      },
+      {
+        "_id": "68d66dc958d49a4f3cabb479",
+        "nom": "legume",
+        "__v": 0
+      },
+      {
+        "_id": "68d66dd258d49a4f3cabb47d",
+        "nom": "loiuy",
+        "__v": 0
+      },
+      {
+        "_id": "68d6715358d49a4f3cabb483",
+        "nom": "sokhna",
+        "__v": 0
+      },
+      {
+        "_id": "68d67448ed2dad15847951a8",
+        "nom": "koutre",
+        "__v": 0
+      },
+      {
+        "_id": "68d67455ed2dad15847951ac",
+        "nom": "guytez",
+        "__v": 0
+      },
+      {
+        "_id": "68d67698ed2dad15847951b0",
+        "nom": "eerthnb",
+        "__v": 0
+      },
+      {
+        "_id": "68d676a1ed2dad15847951b4",
+        "nom": "dreza",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b41a63b51f3214d3cb59",
+        "nom": "guyiop",
+        "__v": 0
+      }
+    ],
+    "total": 11
+  }
+}
+[2025-09-26T15:59:25.625] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "158ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T15:59:25.625Z",
+  "query": {},
+  "params": {},
+  "responseSize": 741,
+  "responsePreview": "{\"message\":\"Vos catégories récupérées avec succès\",\"categories\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\""
+}
+[2025-09-26T16:00:46.570] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "230ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:00:46.570Z",
+  "body": {
+    "nom": "Thiam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 128,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "Thiam",
+      "_id": "68d6b8ae63b51f3214d3cb63",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T16:00:46.572] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "233ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:00:46.572Z",
+  "body": {
+    "nom": "Thiam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 128,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"Thiam\",\"_id\":\"68d6b8ae63b51"
+}
+[2025-09-26T16:03:31.701] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d66dc958d49a4f3cabb479",
+  "status": 401,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:03:31.701Z",
+  "query": {},
+  "params": {
+    "id": "68d66dc958d49a4f3cabb479"
+  },
+  "responseSize": 65,
+  "responseData": {
+    "success": false,
+    "message": "Accès refusé. Aucun token fourni."
+  }
+}
+[2025-09-26T16:03:31.702] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d66dc958d49a4f3cabb479",
+  "status": 401,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:03:31.702Z",
+  "query": {},
+  "params": {
+    "id": "68d66dc958d49a4f3cabb479"
+  },
+  "responseSize": 65,
+  "responsePreview": "{\"success\":false,\"message\":\"Accès refusé. Aucun token fourni.\"}"
+}
+[2025-09-26T16:03:45.675] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "259ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:03:45.675Z",
+  "body": {
+    "email": "diop@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 525,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMTQzODE2MjhjOTIxYTNkMDE4OSIsImVtYWlsIjoiZGlvcEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODkwMjYyNSwiZXhwIjoxNzU5NTA3NDI1fQ.Q_oA_suDQpzvzXEPKaic9TVozYtNoIkA3JqaPFYfXno",
+    "user": {
+      "_id": "68d5314381628c921a3d0189",
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "diop@gmail.com",
+      "password": "$2b$10$4x93WCNXxqqTua4o3qqWKurrbUn0fmg62wgEUp/xSTrJD.mAF2Ywa",
+      "commercant_id": "68d5314381628c921a3d0185",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T16:03:45.677] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "261ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:03:45.677Z",
+  "body": {
+    "email": "diop@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 525,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMTQzOD"
+}
+[2025-09-26T16:04:26.343] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d66dc958d49a4f3cabb479",
+  "status": 200,
+  "duration": "232ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:04:26.343Z",
+  "query": {},
+  "params": {
+    "id": "68d66dc958d49a4f3cabb479"
+  },
+  "responseSize": 132,
+  "responseData": {
+    "message": "Votre catégorie a été supprimée avec succès",
+    "categorie": {
+      "_id": "68d66dc958d49a4f3cabb479",
+      "nom": "legume",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T16:04:26.345] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d66dc958d49a4f3cabb479",
+  "status": 200,
+  "duration": "234ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:04:26.345Z",
+  "query": {},
+  "params": {
+    "id": "68d66dc958d49a4f3cabb479"
+  },
+  "responseSize": 132,
+  "responsePreview": "{\"message\":\"Votre catégorie a été supprimée avec succès\",\"categorie\":{\"_id\":\"68d66dc958d49a4f3cabb47"
+}
+[2025-09-26T16:04:45.269] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:04:45.269Z",
+  "body": {
+    "nom": "legumes",
+    "commercant_id": "68d5314381628c921a3d0185"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1692,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategories non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T16:04:45.269Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategories",
+      "method": "GET",
+      "user": "Non authentifié",
+      "body": {
+        "nom": "legumes",
+        "commercant_id": "68d5314381628c921a3d0185"
+      },
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T16:04:45.271] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:04:45.271Z",
+  "body": {
+    "nom": "legumes",
+    "commercant_id": "68d5314381628c921a3d0185"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 1692,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategories non trouvée\",\"status\":404,\"timestam"
+}
+[2025-09-26T16:04:52.501] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 200,
+  "duration": "74ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:04:52.501Z",
+  "body": {
+    "nom": "legumes",
+    "commercant_id": "68d5314381628c921a3d0185"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 659,
+  "responseData": [
+    {
+      "_id": "688bc2eb30725a959aeae3d4",
+      "nom": "Électronique & Gadgets",
+      "__v": 0
+    },
+    {
+      "_id": "68ae04bfcfb5e908a0421ac8",
+      "nom": "Cosmetique",
+      "__v": 0
+    },
+    {
+      "_id": "68d56fc081628c921a3d01c6",
+      "nom": "legumes",
+      "__v": 0
+    },
+    {
+      "_id": "68d66dd258d49a4f3cabb47d",
+      "nom": "loiuy",
+      "__v": 0
+    },
+    {
+      "_id": "68d6715358d49a4f3cabb483",
+      "nom": "sokhna",
+      "__v": 0
+    },
+    {
+      "_id": "68d67448ed2dad15847951a8",
+      "nom": "koutre",
+      "__v": 0
+    },
+    {
+      "_id": "68d67455ed2dad15847951ac",
+      "nom": "guytez",
+      "__v": 0
+    },
+    {
+      "_id": "68d67698ed2dad15847951b0",
+      "nom": "eerthnb",
+      "__v": 0
+    },
+    {
+      "_id": "68d676a1ed2dad15847951b4",
+      "nom": "dreza",
+      "__v": 0
+    },
+    {
+      "_id": "68d6b41a63b51f3214d3cb59",
+      "nom": "guyiop",
+      "__v": 0
+    },
+    {
+      "_id": "68d6b8ae63b51f3214d3cb63",
+      "nom": "Thiam",
+      "__v": 0
+    }
+  ]
+}
+[2025-09-26T16:04:52.504] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 200,
+  "duration": "77ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:04:52.504Z",
+  "body": {
+    "nom": "legumes",
+    "commercant_id": "68d5314381628c921a3d0185"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 659,
+  "responsePreview": "[{\"_id\":\"688bc2eb30725a959aeae3d4\",\"nom\":\"Électronique & Gadgets\",\"__v\":0},{\"_id\":\"68ae04bfcfb5e908a"
+}
+[2025-09-26T16:05:09.250] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d66dd258d49a4f3cabb47d",
+  "status": 200,
+  "duration": "228ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:05:09.250Z",
+  "query": {},
+  "params": {
+    "id": "68d66dd258d49a4f3cabb47d"
+  },
+  "responseSize": 131,
+  "responseData": {
+    "message": "Votre catégorie a été supprimée avec succès",
+    "categorie": {
+      "_id": "68d66dd258d49a4f3cabb47d",
+      "nom": "loiuy",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T16:05:09.251] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d66dd258d49a4f3cabb47d",
+  "status": 200,
+  "duration": "229ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:05:09.251Z",
+  "query": {},
+  "params": {
+    "id": "68d66dd258d49a4f3cabb47d"
+  },
+  "responseSize": 131,
+  "responsePreview": "{\"message\":\"Votre catégorie a été supprimée avec succès\",\"categorie\":{\"_id\":\"68d66dd258d49a4f3cabb47"
+}
+[2025-09-26T16:05:31.580] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d6715358d49a4f3cabb483",
+  "status": 200,
+  "duration": "225ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:05:31.580Z",
+  "query": {},
+  "params": {
+    "id": "68d6715358d49a4f3cabb483"
+  },
+  "responseSize": 132,
+  "responseData": {
+    "message": "Votre catégorie a été supprimée avec succès",
+    "categorie": {
+      "_id": "68d6715358d49a4f3cabb483",
+      "nom": "sokhna",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T16:05:31.581] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d6715358d49a4f3cabb483",
+  "status": 200,
+  "duration": "226ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:05:31.581Z",
+  "query": {},
+  "params": {
+    "id": "68d6715358d49a4f3cabb483"
+  },
+  "responseSize": 132,
+  "responsePreview": "{\"message\":\"Votre catégorie a été supprimée avec succès\",\"categorie\":{\"_id\":\"68d6715358d49a4f3cabb48"
+}
+[2025-09-26T16:05:56.608] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d67448ed2dad15847951a8",
+  "status": 200,
+  "duration": "240ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:05:56.608Z",
+  "query": {},
+  "params": {
+    "id": "68d67448ed2dad15847951a8"
+  },
+  "responseSize": 132,
+  "responseData": {
+    "message": "Votre catégorie a été supprimée avec succès",
+    "categorie": {
+      "_id": "68d67448ed2dad15847951a8",
+      "nom": "koutre",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T16:05:56.609] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d67448ed2dad15847951a8",
+  "status": 200,
+  "duration": "242ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:05:56.609Z",
+  "query": {},
+  "params": {
+    "id": "68d67448ed2dad15847951a8"
+  },
+  "responseSize": 132,
+  "responsePreview": "{\"message\":\"Votre catégorie a été supprimée avec succès\",\"categorie\":{\"_id\":\"68d67448ed2dad15847951a"
+}
+[2025-09-26T16:06:15.709] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d67455ed2dad15847951ac",
+  "status": 200,
+  "duration": "226ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:06:15.709Z",
+  "query": {},
+  "params": {
+    "id": "68d67455ed2dad15847951ac"
+  },
+  "responseSize": 132,
+  "responseData": {
+    "message": "Votre catégorie a été supprimée avec succès",
+    "categorie": {
+      "_id": "68d67455ed2dad15847951ac",
+      "nom": "guytez",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T16:06:15.711] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d67455ed2dad15847951ac",
+  "status": 200,
+  "duration": "228ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:06:15.711Z",
+  "query": {},
+  "params": {
+    "id": "68d67455ed2dad15847951ac"
+  },
+  "responseSize": 132,
+  "responsePreview": "{\"message\":\"Votre catégorie a été supprimée avec succès\",\"categorie\":{\"_id\":\"68d67455ed2dad15847951a"
+}
+[2025-09-26T16:06:40.429] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d67698ed2dad15847951b0",
+  "status": 200,
+  "duration": "224ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:06:40.429Z",
+  "query": {},
+  "params": {
+    "id": "68d67698ed2dad15847951b0"
+  },
+  "responseSize": 133,
+  "responseData": {
+    "message": "Votre catégorie a été supprimée avec succès",
+    "categorie": {
+      "_id": "68d67698ed2dad15847951b0",
+      "nom": "eerthnb",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T16:06:40.431] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d67698ed2dad15847951b0",
+  "status": 200,
+  "duration": "226ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:06:40.431Z",
+  "query": {},
+  "params": {
+    "id": "68d67698ed2dad15847951b0"
+  },
+  "responseSize": 133,
+  "responsePreview": "{\"message\":\"Votre catégorie a été supprimée avec succès\",\"categorie\":{\"_id\":\"68d67698ed2dad15847951b"
+}
+[2025-09-26T16:07:23.843] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d676a1ed2dad15847951b4%0A",
+  "status": 500,
+  "duration": "78ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:07:23.843Z",
+  "query": {},
+  "params": {
+    "id": "68d676a1ed2dad15847951b4\n"
+  },
+  "responseSize": 197,
+  "responseData": {
+    "message": "Erreur lors de la suppression de la catégorie",
+    "error": "Cast to ObjectId failed for value \"68d676a1ed2dad15847951b4\\n\" (type string) at path \"categorie_id\" for model \"Produit\""
+  }
+}
+[2025-09-26T16:07:23.844] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d676a1ed2dad15847951b4%0A",
+  "status": 500,
+  "duration": "79ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:07:23.844Z",
+  "query": {},
+  "params": {
+    "id": "68d676a1ed2dad15847951b4\n"
+  },
+  "responseSize": 197,
+  "responsePreview": "{\"message\":\"Erreur lors de la suppression de la catégorie\",\"error\":\"Cast to ObjectId failed for valu"
+}
+[2025-09-26T16:07:54.333] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d6b41a63b51f3214d3cb59%0A",
+  "status": 500,
+  "duration": "78ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:07:54.333Z",
+  "query": {},
+  "params": {
+    "id": "68d6b41a63b51f3214d3cb59\n"
+  },
+  "responseSize": 197,
+  "responseData": {
+    "message": "Erreur lors de la suppression de la catégorie",
+    "error": "Cast to ObjectId failed for value \"68d6b41a63b51f3214d3cb59\\n\" (type string) at path \"categorie_id\" for model \"Produit\""
+  }
+}
+[2025-09-26T16:07:54.334] [INFO] detailed - {
+  "method": "DELETE",
+  "url": "/api/deleteCategories/68d6b41a63b51f3214d3cb59%0A",
+  "status": 500,
+  "duration": "79ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T16:07:54.334Z",
+  "query": {},
+  "params": {
+    "id": "68d6b41a63b51f3214d3cb59\n"
+  },
+  "responseSize": 197,
+  "responsePreview": "{\"message\":\"Erreur lors de la suppression de la catégorie\",\"error\":\"Cast to ObjectId failed for valu"
+}
+[2025-09-26T16:08:16.121] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "175ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:08:16.121Z",
+  "query": {},
+  "params": {},
+  "responseSize": 449,
+  "responseData": {
+    "message": "Vos catégories récupérées avec succès",
+    "categories": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      },
+      {
+        "_id": "68d56fc081628c921a3d01c6",
+        "nom": "legumes",
+        "__v": 0
+      },
+      {
+        "_id": "68d676a1ed2dad15847951b4",
+        "nom": "dreza",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b41a63b51f3214d3cb59",
+        "nom": "guyiop",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b8ae63b51f3214d3cb63",
+        "nom": "Thiam",
+        "__v": 0
+      }
+    ],
+    "total": 6
+  }
+}
+[2025-09-26T16:08:16.122] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "176ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:08:16.122Z",
+  "query": {},
+  "params": {},
+  "responseSize": 449,
+  "responsePreview": "{\"message\":\"Vos catégories récupérées avec succès\",\"categories\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\""
+}
+[2025-09-26T16:28:39.295] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "149ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:28:39.295Z",
+  "query": {},
+  "params": {},
+  "responseSize": 449,
+  "responseData": {
+    "message": "Vos catégories récupérées avec succès",
+    "categories": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      },
+      {
+        "_id": "68d56fc081628c921a3d01c6",
+        "nom": "legumes",
+        "__v": 0
+      },
+      {
+        "_id": "68d676a1ed2dad15847951b4",
+        "nom": "dreza",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b41a63b51f3214d3cb59",
+        "nom": "guyiop",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b8ae63b51f3214d3cb63",
+        "nom": "Thiam",
+        "__v": 0
+      }
+    ],
+    "total": 6
+  }
+}
+[2025-09-26T16:28:39.297] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "151ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:28:39.297Z",
+  "query": {},
+  "params": {},
+  "responseSize": 449,
+  "responsePreview": "{\"message\":\"Vos catégories récupérées avec succès\",\"categories\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\""
+}
+[2025-09-26T16:28:48.912] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "157ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:28:48.912Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-26T16:28:48.913] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "158ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:28:48.913Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-26T16:29:32.438] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "145ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:29:32.438Z",
+  "query": {},
+  "params": {},
+  "responseSize": 449,
+  "responseData": {
+    "message": "Vos catégories récupérées avec succès",
+    "categories": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      },
+      {
+        "_id": "68d56fc081628c921a3d01c6",
+        "nom": "legumes",
+        "__v": 0
+      },
+      {
+        "_id": "68d676a1ed2dad15847951b4",
+        "nom": "dreza",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b41a63b51f3214d3cb59",
+        "nom": "guyiop",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b8ae63b51f3214d3cb63",
+        "nom": "Thiam",
+        "__v": 0
+      }
+    ],
+    "total": 6
+  }
+}
+[2025-09-26T16:29:32.439] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "146ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:29:32.439Z",
+  "query": {},
+  "params": {},
+  "responseSize": 449,
+  "responsePreview": "{\"message\":\"Vos catégories récupérées avec succès\",\"categories\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\""
+}
+[2025-09-26T16:30:19.525] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "146ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:30:19.525Z",
+  "query": {},
+  "params": {},
+  "responseSize": 449,
+  "responseData": {
+    "message": "Vos catégories récupérées avec succès",
+    "categories": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      },
+      {
+        "_id": "68d56fc081628c921a3d01c6",
+        "nom": "legumes",
+        "__v": 0
+      },
+      {
+        "_id": "68d676a1ed2dad15847951b4",
+        "nom": "dreza",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b41a63b51f3214d3cb59",
+        "nom": "guyiop",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b8ae63b51f3214d3cb63",
+        "nom": "Thiam",
+        "__v": 0
+      }
+    ],
+    "total": 6
+  }
+}
+[2025-09-26T16:30:19.528] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "149ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:30:19.528Z",
+  "query": {},
+  "params": {},
+  "responseSize": 449,
+  "responsePreview": "{\"message\":\"Vos catégories récupérées avec succès\",\"categories\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\""
+}
+[2025-09-26T16:30:40.460] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "227ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:30:40.460Z",
+  "body": {
+    "nom": "rfhhjjk"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 130,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "rfhhjjk",
+      "_id": "68d6bfb063b51f3214d3cb88",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T16:30:40.462] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "229ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:30:40.462Z",
+  "body": {
+    "nom": "rfhhjjk"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 130,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"rfhhjjk\",\"_id\":\"68d6bfb063b"
+}
+[2025-09-26T16:30:53.786] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "151ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:30:53.786Z",
+  "query": {},
+  "params": {},
+  "responseSize": 508,
+  "responseData": {
+    "message": "Vos catégories récupérées avec succès",
+    "categories": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      },
+      {
+        "_id": "68d56fc081628c921a3d01c6",
+        "nom": "legumes",
+        "__v": 0
+      },
+      {
+        "_id": "68d676a1ed2dad15847951b4",
+        "nom": "dreza",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b41a63b51f3214d3cb59",
+        "nom": "guyiop",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b8ae63b51f3214d3cb63",
+        "nom": "Thiam",
+        "__v": 0
+      },
+      {
+        "_id": "68d6bfb063b51f3214d3cb88",
+        "nom": "rfhhjjk",
+        "__v": 0
+      }
+    ],
+    "total": 7
+  }
+}
+[2025-09-26T16:30:53.789] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "155ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T16:30:53.789Z",
+  "query": {},
+  "params": {},
+  "responseSize": 508,
+  "responsePreview": "{\"message\":\"Vos catégories récupérées avec succès\",\"categories\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\""
+}
+[2025-09-26T21:17:27.252] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "982ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T21:17:27.252Z",
+  "query": {},
+  "params": {},
+  "responseSize": 508,
+  "responseData": {
+    "message": "Vos catégories récupérées avec succès",
+    "categories": [
+      {
+        "_id": "688bc2eb30725a959aeae3d4",
+        "nom": "Électronique & Gadgets",
+        "__v": 0
+      },
+      {
+        "_id": "68ae04bfcfb5e908a0421ac8",
+        "nom": "Cosmetique",
+        "__v": 0
+      },
+      {
+        "_id": "68d56fc081628c921a3d01c6",
+        "nom": "legumes",
+        "__v": 0
+      },
+      {
+        "_id": "68d676a1ed2dad15847951b4",
+        "nom": "dreza",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b41a63b51f3214d3cb59",
+        "nom": "guyiop",
+        "__v": 0
+      },
+      {
+        "_id": "68d6b8ae63b51f3214d3cb63",
+        "nom": "Thiam",
+        "__v": 0
+      },
+      {
+        "_id": "68d6bfb063b51f3214d3cb88",
+        "nom": "rfhhjjk",
+        "__v": 0
+      }
+    ],
+    "total": 7
+  }
+}
+[2025-09-26T21:17:27.255] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 200,
+  "duration": "985ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T21:17:27.255Z",
+  "query": {},
+  "params": {},
+  "responseSize": 508,
+  "responsePreview": "{\"message\":\"Vos catégories récupérées avec succès\",\"categories\":[{\"_id\":\"688bc2eb30725a959aeae3d4\",\""
+}
