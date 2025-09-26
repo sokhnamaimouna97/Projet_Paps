@@ -266,3 +266,654 @@
   "type": "CRITICAL_ERROR"
 }
 
+[2025-09-25T12:05:54.113] {
+  "error": {
+    "message": "Route /api/getAlllivreursl non trouvée",
+    "stack": "Error: Route /api/getAlllivreursl non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAlllivreursl",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.45.0",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "9e296af1-abe9-42fc-98e2-a1e76e9620a4",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-25T12:05:54.113Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-25T12:05:54.113Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:20:19.432] {
+  "error": {
+    "message": "Route /api/getAllCategories non trouvée",
+    "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategories",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "792e61f5-54a0-47bb-ad6f-507708a88537",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:20:19.432Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:20:19.431Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:20:52.554] {
+  "error": {
+    "message": "Route /api/getAllCategories non trouvée",
+    "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategories",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "af31ddfe-68d8-49ac-a41f-f3b69a9efd37",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:20:52.554Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:20:52.554Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:29:46.694] {
+  "error": {
+    "message": "Route /api/getAllCategories non trouvée",
+    "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategories",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "3f242441-dab3-4f39-a986-6693207b7bf2",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:29:46.694Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:29:46.693Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:31:20.671] {
+  "error": {
+    "message": "Route /api/getAllCategories non trouvée",
+    "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategories",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "acd12f44-04ff-4c0f-9603-313834f2d5de",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:31:20.671Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:31:20.671Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:31:23.190] {
+  "error": {
+    "message": "Route /api/getAllCategories non trouvée",
+    "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategories",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "247e3152-94f0-4bb3-9429-0d3b07aad332",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:31:23.190Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:31:23.190Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:32:00.181] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "041dd6da-6dad-45a4-88ed-cbedee276880",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:32:00.181Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:32:00.181Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:32:01.881] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "21869d25-7fe8-4dc0-bbe3-e8986ad2514e",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:32:01.881Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:32:01.881Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:36:17.673] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "2bf68f04-f55d-40fa-90d3-8cd41a5b10b3",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:36:17.673Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:36:17.673Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:37:03.560] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "e10f71a7-5d71-4282-a660-5ccb9c06a8f4",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:37:03.560Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:37:03.559Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:37:13.466] {
+  "error": {
+    "message": "Route /api/getAlllivreus non trouvée",
+    "stack": "Error: Route /api/getAlllivreus non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAlllivreus",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "98043314-ebf3-42b2-b809-d8f7ee1b2705",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:37:13.466Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:37:13.466Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:37:23.962] {
+  "error": {
+    "message": "Route /api/getAllLivreus non trouvée",
+    "stack": "Error: Route /api/getAllLivreus non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllLivreus",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "ebd10062-cad4-4301-ae36-8261ae750347",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:37:23.962Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:37:23.962Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:38:21.504] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "942413fe-4c23-4873-895e-f854e5baf67d",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:38:21.504Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:38:21.504Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:39:24.182] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "4f0d1cdd-354b-4935-bad8-915053eff63f",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:39:24.182Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:39:24.182Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:39:25.762] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "da98570a-8cf9-4cef-9f42-64c4748d696b",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:39:25.762Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:39:25.761Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:43:00.768] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "46128b6c-433f-4235-9d26-789edf73e5ca",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:43:00.768Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:43:00.768Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:43:02.504] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "a8e9a0c2-afa1-4b5e-841c-b50536e16232",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:43:02.504Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:43:02.504Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:44:40.302] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "df941040-b297-4923-946f-cacb50d96733",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:44:40.302Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:44:40.302Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:46:50.862] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "9b69a2bc-d673-4e74-b849-65cde6610a89",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:46:50.862Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:46:50.862Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:46:52.524] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "58f174c8-391a-4203-a3e9-f31226c9a943",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:46:52.524Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:46:52.524Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+
+[2025-09-26T11:47:10.049] {
+  "error": {
+    "message": "Route /api/getAllCategorie non trouvée",
+    "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+    "name": "Error"
+  },
+  "request": {
+    "method": "GET",
+    "url": "/api/getAllCategorie",
+    "user": "Non authentifié",
+    "ip": "::1",
+    "headers": {
+      "user-agent": "PostmanRuntime/7.47.1",
+      "accept": "*/*",
+      "cache-control": "no-cache",
+      "postman-token": "0c7d16da-9c90-4673-a9ab-32fd9c1748f7",
+      "host": "localhost:5000",
+      "accept-encoding": "gzip, deflate, br",
+      "connection": "keep-alive"
+    },
+    "query": {},
+    "params": {}
+  },
+  "timestamp": "2025-09-26T11:47:10.049Z",
+  "context": {
+    "middleware": "ERROR_HANDLER",
+    "timestamp": "2025-09-26T11:47:10.048Z"
+  },
+  "type": "CRITICAL_ERROR"
+}
+

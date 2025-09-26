@@ -5,29 +5,39 @@ import { Input } from '../ui/input';
 import { Label } from '../ui/label';
 import { Textarea } from '../ui/textarea';
 import { Badge } from '../ui/badge';
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '../ui/dialog';
-import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from '../ui/alert-dialog';
+import {
+  Dialog, DialogContent, DialogDescription, DialogHeader,
+  DialogTitle, DialogTrigger
+} from '../ui/dialog';
+import {
+  AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent,
+  AlertDialogDescription, AlertDialogFooter, AlertDialogHeader,
+  AlertDialogTitle, AlertDialogTrigger
+} from '../ui/alert-dialog';
 import { Plus, Edit, Trash2, Crown } from 'lucide-react';
 import { toast } from 'sonner';
 import { projectId, publicAnonKey } from '../../utils/supabase/info';
-import { Product } from '../../lib/types';
+import { Product, Category } from '../../lib/types';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
 
 interface ProductsTabProps {
   products: Product[];
   setProducts: React.Dispatch<React.SetStateAction<Product[]>>;
   merchantId: string;
   isPremium: boolean;
+  categories?: Category[]; // 👈 facultatif mais toujours un tableau
 }
 
-const ProductsTab: React.FC<ProductsTabProps> = ({ 
-  products, 
-  setProducts, 
-  merchantId, 
-  isPremium 
+const ProductsTab: React.FC<ProductsTabProps> = ({
+  products,
+  setProducts,
+  merchantId,
+  isPremium,
+  categories = [] // 👈 fallback tableau vide
 }) => {
   const [isAddingProduct, setIsAddingProduct] = useState(false);
   const [editingProduct, setEditingProduct] = useState<Product | null>(null);
-  
+
   const [newProduct, setNewProduct] = useState({
     name: '',
     description: '',
@@ -43,21 +53,23 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
       return;
     }
 
-    // Limitation freemium : max 25 produits
     if (!isPremium && products.length >= 25) {
       toast.error('Version freemium limitée à 25 produits. Passez en Premium pour plus de produits.');
       return;
     }
 
     try {
-      const response = await fetch(`https://${projectId}.supabase.co/functions/v1/make-server-9f9491c0/merchant/${merchantId}/products`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${publicAnonKey}`
-        },
-        body: JSON.stringify(newProduct)
-      });
+      const response = await fetch(
+        `https://${projectId}.supabase.co/functions/v1/make-server-9f9491c0/merchant/${merchantId}/products`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${publicAnonKey}`
+          },
+          body: JSON.stringify(newProduct)
+        }
+      );
 
       if (response.ok) {
         const result = await response.json();
@@ -78,14 +90,17 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
     if (!editingProduct) return;
 
     try {
-      const response = await fetch(`https://${projectId}.supabase.co/functions/v1/make-server-9f9491c0/merchant/${merchantId}/products`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${publicAnonKey}`
-        },
-        body: JSON.stringify(editingProduct)
-      });
+      const response = await fetch(
+        `https://${projectId}.supabase.co/functions/v1/make-server-9f9491c0/merchant/${merchantId}/products`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${publicAnonKey}`
+          },
+          body: JSON.stringify(editingProduct)
+        }
+      );
 
       if (response.ok) {
         const result = await response.json();
@@ -103,10 +118,13 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
 
   const handleDeleteProduct = async (productId: string) => {
     try {
-      const response = await fetch(`https://${projectId}.supabase.co/functions/v1/make-server-9f9491c0/merchant/${merchantId}/products/${productId}`, {
-        method: 'DELETE',
-        headers: { 'Authorization': `Bearer ${publicAnonKey}` }
-      });
+      const response = await fetch(
+        `https://${projectId}.supabase.co/functions/v1/make-server-9f9491c0/merchant/${merchantId}/products/${productId}`,
+        {
+          method: 'DELETE',
+          headers: { 'Authorization': `Bearer ${publicAnonKey}` }
+        }
+      );
 
       if (response.ok) {
         setProducts(products.filter(p => p.id !== productId));
@@ -154,7 +172,7 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
                 <Input
                   id="name"
                   value={newProduct.name}
-                  onChange={(e) => setNewProduct({...newProduct, name: e.target.value})}
+                  onChange={(e) => setNewProduct({ ...newProduct, name: e.target.value })}
                   className="col-span-3"
                 />
               </div>
@@ -164,18 +182,27 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
                   id="price"
                   type="number"
                   value={newProduct.price}
-                  onChange={(e) => setNewProduct({...newProduct, price: parseFloat(e.target.value) || 0})}
+                  onChange={(e) => setNewProduct({ ...newProduct, price: parseFloat(e.target.value) || 0 })}
                   className="col-span-3"
                 />
               </div>
               <div className="grid grid-cols-4 items-center gap-4">
                 <Label htmlFor="category" className="text-right">Catégorie</Label>
-                <Input
-                  id="category"
+                <Select
+                  onValueChange={(value) => setNewProduct({ ...newProduct, category: value })}
                   value={newProduct.category}
-                  onChange={(e) => setNewProduct({...newProduct, category: e.target.value})}
-                  className="col-span-3"
-                />
+                >
+                  <SelectTrigger className="col-span-3">
+                    <SelectValue placeholder="Sélectionner une catégorie" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {(categories ?? []).map((cat) => (
+                      <SelectItem key={cat.id} value={cat.id}>
+                        {cat.nom}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
               </div>
               <div className="grid grid-cols-4 items-center gap-4">
                 <Label htmlFor="stock" className="text-right">Stock</Label>
@@ -183,7 +210,7 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
                   id="stock"
                   type="number"
                   value={newProduct.stock}
-                  onChange={(e) => setNewProduct({...newProduct, stock: parseInt(e.target.value) || 0})}
+                  onChange={(e) => setNewProduct({ ...newProduct, stock: parseInt(e.target.value) || 0 })}
                   className="col-span-3"
                 />
               </div>
@@ -192,7 +219,7 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
                 <Input
                   id="imageUrl"
                   value={newProduct.imageUrl}
-                  onChange={(e) => setNewProduct({...newProduct, imageUrl: e.target.value})}
+                  onChange={(e) => setNewProduct({ ...newProduct, imageUrl: e.target.value })}
                   className="col-span-3"
                 />
               </div>
@@ -201,7 +228,7 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
                 <Textarea
                   id="description"
                   value={newProduct.description}
-                  onChange={(e) => setNewProduct({...newProduct, description: e.target.value})}
+                  onChange={(e) => setNewProduct({ ...newProduct, description: e.target.value })}
                   className="col-span-3"
                 />
               </div>
@@ -223,8 +250,8 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
           <Card key={product.id} className="bg-white/80 dark:bg-gray-800/60 backdrop-blur">
             <CardContent className="p-4">
               {product.imageUrl && (
-                <img 
-                  src={product.imageUrl} 
+                <img
+                  src={product.imageUrl}
                   alt={product.name}
                   className="w-full h-48 object-cover rounded-md mb-4"
                 />
@@ -240,8 +267,8 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
               <div className="flex gap-2">
                 <Dialog>
                   <DialogTrigger asChild>
-                    <Button 
-                      variant="outline" 
+                    <Button
+                      variant="outline"
                       size="sm"
                       onClick={() => setEditingProduct(product)}
                     >
@@ -259,7 +286,7 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
                           <Input
                             id="edit-name"
                             value={editingProduct.name}
-                            onChange={(e) => setEditingProduct({...editingProduct, name: e.target.value})}
+                            onChange={(e) => setEditingProduct({ ...editingProduct, name: e.target.value })}
                             className="col-span-3"
                           />
                         </div>
@@ -269,7 +296,7 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
                             id="edit-price"
                             type="number"
                             value={editingProduct.price}
-                            onChange={(e) => setEditingProduct({...editingProduct, price: parseFloat(e.target.value) || 0})}
+                            onChange={(e) => setEditingProduct({ ...editingProduct, price: parseFloat(e.target.value) || 0 })}
                             className="col-span-3"
                           />
                         </div>
@@ -279,7 +306,7 @@ const ProductsTab: React.FC<ProductsTabProps> = ({
                             id="edit-stock"
                             type="number"
                             value={editingProduct.stock}
-                            onChange={(e) => setEditingProduct({...editingProduct, stock: parseInt(e.target.value) || 0})}
+                            onChange={(e) => setEditingProduct({ ...editingProduct, stock: parseInt(e.target.value) || 0 })}
                             className="col-span-3"
                           />
                         </div>

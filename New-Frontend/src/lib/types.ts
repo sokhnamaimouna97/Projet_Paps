@@ -34,6 +34,10 @@ export interface DeliveryPerson {
   email: string;
   status: string;
 }
+export interface Category{
+  id: string;
+  nom: string;
+}
 
 export interface StoreSettings {
   name: string;

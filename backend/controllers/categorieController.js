@@ -233,6 +233,14 @@ const getProductsByCategorie = async (req, res) => {
         });
     }
 };
+const getAllCategories = async (req, res) => {
+  try {
+    const categories = await Categorie.find();
+    res.json(categories);
+  } catch (err) {
+    res.status(500).json({ error: "Erreur lors de la récupération des categories", details: err });
+  }
+};
 
 module.exports = {
     getCategoriesByCommercant,
@@ -240,5 +248,6 @@ module.exports = {
     createCategorie,
     updateCategorie,
     deleteCategorie,
-    getProductsByCategorie
+    getProductsByCategorie,
+    getAllCategories,
 };

@@ -3,7 +3,7 @@ const router = express.Router();
 const { signIn, signUpCommercant, checkAndGetUserByToken } = require("../controllers/userController");
 const { createLivreur, getLivreurById, updateLivreur, deleteLivreur, getAllLivreurs, getAllLivreursByCommercants } = require("../controllers/livreurController");
 const authMiddleware = require("../Middlewares/Authorize");
-const { getCategoriesByCommercant, createCategorie, getOneCategorie, getProductsByCategorie, updateCategorie, deleteCategorie } = require("../controllers/categorieController");
+const { getCategoriesByCommercant, createCategorie, getOneCategorie, getProductsByCategorie, updateCategorie, deleteCategorie, getAllCategories } = require("../controllers/categorieController");
 const { getOneProduct, getProductsByCommercant, createProduct, updateProducts, updateStockProducts, deleteProducts } = require("../controllers/productController");
 
 router.post("/signup", signUpCommercant);
@@ -35,4 +35,5 @@ router.get("/getOnecategories/:id", authMiddleware.authenticateCommercant, getOn
 router.get("/getOneProductByCategories/:id/products", authMiddleware.authenticateCommercant, getProductsByCategorie);
 router.put("/updateCategories/:id",authMiddleware.authenticateCommercant, updateCategorie);
 router.delete("/deleteCategories/:id", authMiddleware.authenticateCommercant, deleteCategorie);
+router.get("/getAllCategorie", getAllCategories);
 module.exports = router;

@@ -4218,3 +4218,4643 @@
   "responseSize": 749,
   "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
 }
+[2025-09-25T11:58:37.514] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-25T11:58:37.513Z","port":5000,"env":"development","nodeVersion":"v22.14.0","uptime":0.5869079}
+[2025-09-25T11:59:29.119] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 401,
+  "duration": "3ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T11:59:29.119Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "ali",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "email": "ali@gmail.com",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 92,
+  "responseData": {
+    "success": false,
+    "message": "Token invalide",
+    "error": "secret or public key must be provided"
+  }
+}
+[2025-09-25T11:59:29.121] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 401,
+  "duration": "5ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T11:59:29.121Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "ali",
+    "telephone": "771090594",
+    "password": "Passer123",
+    "email": "ali@gmail.com",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 92,
+  "responsePreview": "{\"success\":false,\"message\":\"Token invalide\",\"error\":\"secret or public key must be provided\"}"
+}
+[2025-09-25T12:00:39.436] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "10015ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:00:39.436Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": {}
+  }
+}
+[2025-09-25T12:00:39.437] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "10016ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:00:39.437Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":{}}"
+}
+[2025-09-25T12:01:06.282] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 500,
+  "duration": "10012ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:01:06.282Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "sokhna",
+    "telephone": "771090593",
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 100,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": "Operation `users.findOne()` buffering timed out after 10000ms"
+  }
+}
+[2025-09-25T12:01:06.283] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 500,
+  "duration": "10013ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:01:06.283Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "sokhna",
+    "telephone": "771090593",
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 100,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":\"Operation `users.findOne()` buffering timed out after 10000ms\"}"
+}
+[2025-09-25T12:04:56.291] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-25T12:04:56.290Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.7004073}
+[2025-09-25T12:05:16.037] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 500,
+  "duration": "10004ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:05:16.037Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "sokhna",
+    "telephone": "771090593",
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 100,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": "Operation `users.findOne()` buffering timed out after 10000ms"
+  }
+}
+[2025-09-25T12:05:16.038] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 500,
+  "duration": "10005ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:05:16.038Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "sokhna",
+    "telephone": "771090593",
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 100,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":\"Operation `users.findOne()` buffering timed out after 10000ms\"}"
+}
+[2025-09-25T12:05:38.656] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "10002ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:05:38.656Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": {}
+  }
+}
+[2025-09-25T12:05:38.656] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 500,
+  "duration": "10002ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:05:38.656Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 39,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":{}}"
+}
+[2025-09-25T12:05:54.114] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursl",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:05:54.114Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAlllivreursl non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-25T12:05:54.114Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAlllivreursl non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAlllivreursl",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-25T12:05:54.114] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursl",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:05:54.114Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAlllivreursl non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-25T12:06:16.406] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 500,
+  "duration": "10005ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:06:16.406Z",
+  "query": {},
+  "params": {},
+  "responseSize": 70,
+  "responseData": {
+    "error": "Erreur lors de la récupération des livreurs",
+    "details": {}
+  }
+}
+[2025-09-25T12:06:16.406] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 500,
+  "duration": "10005ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:06:16.406Z",
+  "query": {},
+  "params": {},
+  "responseSize": 70,
+  "responsePreview": "{\"error\":\"Erreur lors de la récupération des livreurs\",\"details\":{}}"
+}
+[2025-09-25T12:07:22.166] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 500,
+  "duration": "10005ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:07:22.166Z",
+  "query": {},
+  "params": {},
+  "responseSize": 70,
+  "responseData": {
+    "error": "Erreur lors de la récupération des livreurs",
+    "details": {}
+  }
+}
+[2025-09-25T12:07:22.167] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 500,
+  "duration": "10006ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:07:22.167Z",
+  "query": {},
+  "params": {},
+  "responseSize": 70,
+  "responsePreview": "{\"error\":\"Erreur lors de la récupération des livreurs\",\"details\":{}}"
+}
+[2025-09-25T12:08:22.186] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 500,
+  "duration": "10007ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:08:22.186Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "diop",
+    "telephone": "771090593",
+    "email": "thiam@gmail.com",
+    "password": "Passer1234",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 100,
+  "responseData": {
+    "message": "Erreur serveur",
+    "error": "Operation `users.findOne()` buffering timed out after 10000ms"
+  }
+}
+[2025-09-25T12:08:22.186] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 500,
+  "duration": "10007ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:08:22.186Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "diop",
+    "telephone": "771090593",
+    "email": "thiam@gmail.com",
+    "password": "Passer1234",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 100,
+  "responsePreview": "{\"message\":\"Erreur serveur\",\"error\":\"Operation `users.findOne()` buffering timed out after 10000ms\"}"
+}
+[2025-09-25T12:10:09.209] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-25T12:10:09.208Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.6510803}
+[2025-09-25T12:10:15.732] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "176ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:10:15.731Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1309,
+  "responseData": [
+    {
+      "_id": "688ba370b4f321a0e5e29cdc",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba397a8ef10c336e06d49",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba3a3a8ef10c336e06d4d",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba4d8bf6026dc4618deb4",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deb8",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac2",
+      "commercant_id": null,
+      "__v": 0
+    },
+    {
+      "_id": "68b885fc12048bb0ca2e0bbb",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "livraisons": [],
+      "__v": 0
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bbe",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "livraisons": [],
+      "__v": 0
+    },
+    {
+      "_id": "68cb127c1a09ab5bf29ff0b2",
+      "__v": 0
+    },
+    {
+      "_id": "68cb1311614f11e361c2b7a2",
+      "__v": 0
+    },
+    {
+      "_id": "68cb1d2eaf45a327f5cf875f",
+      "__v": 0
+    }
+  ]
+}
+[2025-09-25T12:10:15.734] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "180ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:10:15.734Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1309,
+  "responsePreview": "[{\"_id\":\"688ba370b4f321a0e5e29cdc\",\"commercant_id\":{\"_id\":\"688ba2b9ba4384daa466b2a4\",\"nom_boutique\":"
+}
+[2025-09-25T12:10:22.303] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "235ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:10:22.303Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 59,
+  "responseData": {
+    "message": "Aucun abonnement trouvé pour ce commerçant."
+  }
+}
+[2025-09-25T12:10:22.304] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 403,
+  "duration": "236ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:10:22.304Z",
+  "body": {
+    "email": "thiamsokhna@gmail.com",
+    "password": "Passer123"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 59,
+  "responsePreview": "{\"message\":\"Aucun abonnement trouvé pour ce commerçant.\"}"
+}
+[2025-09-25T12:10:33.544] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 409,
+  "duration": "82ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:10:33.544Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "diop",
+    "telephone": "771090593",
+    "email": "thiam@gmail.com",
+    "password": "Passer1234",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 44,
+  "responseData": {
+    "message": "Cet email est déjà utilisé."
+  }
+}
+[2025-09-25T12:10:33.545] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 409,
+  "duration": "83ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:10:33.545Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "diop",
+    "telephone": "771090593",
+    "email": "thiam@gmail.com",
+    "password": "Passer1234",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 44,
+  "responsePreview": "{\"message\":\"Cet email est déjà utilisé.\"}"
+}
+[2025-09-25T12:10:43.387] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "436ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:10:43.387Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "diop",
+    "telephone": "771090593",
+    "email": "diop@gmail.com",
+    "password": "Passer1234",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 473,
+  "responseData": {
+    "message": "Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a été activé.",
+    "user": {
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "diop@gmail.com",
+      "password": "$2b$10$4x93WCNXxqqTua4o3qqWKurrbUn0fmg62wgEUp/xSTrJD.mAF2Ywa",
+      "commercant_id": "68d5314381628c921a3d0185",
+      "_id": "68d5314381628c921a3d0189",
+      "__v": 0
+    },
+    "subscription": {
+      "start": "2025-09-25T12:10:43.230Z",
+      "end": "2025-10-25T12:10:43.230Z",
+      "status": "active"
+    }
+  }
+}
+[2025-09-25T12:10:43.388] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signup",
+  "status": 201,
+  "duration": "436ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:10:43.387Z",
+  "body": {
+    "nom": "thiam",
+    "prénom": "diop",
+    "telephone": "771090593",
+    "email": "diop@gmail.com",
+    "password": "Passer1234",
+    "nom_boutique": "thiamBoutik",
+    "adress": "ouakam"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 473,
+  "responsePreview": "{\"message\":\"Commerçant et compte utilisateur créés avec succès. Un abonnement gratuit de 30 jours a "
+}
+[2025-09-25T12:11:16.312] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "233ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:11:16.312Z",
+  "body": {
+    "email": "diop@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 525,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMTQzODE2MjhjOTIxYTNkMDE4OSIsImVtYWlsIjoiZGlvcEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODgwMjI3NiwiZXhwIjoxNzU5NDA3MDc2fQ.owu0ZA4iQFfareXZeMxM7UzhawdZuqKVVSp74o6nfPo",
+    "user": {
+      "_id": "68d5314381628c921a3d0189",
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "diop@gmail.com",
+      "password": "$2b$10$4x93WCNXxqqTua4o3qqWKurrbUn0fmg62wgEUp/xSTrJD.mAF2Ywa",
+      "commercant_id": "68d5314381628c921a3d0185",
+      "__v": 0
+    }
+  }
+}
+[2025-09-25T12:11:16.313] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "233ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:11:16.313Z",
+  "body": {
+    "email": "diop@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 525,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMTQzOD"
+}
+[2025-09-25T12:11:54.617] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "327ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:11:54.617Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "ali",
+    "telephone": "771090594",
+    "password": "Passer1234",
+    "email": "ali@gmail.com",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 411,
+  "responseData": {
+    "message": "Livreur et utilisateur créés avec succès",
+    "livreur": {
+      "commercant_id": "68b86aa31c27940f919e0233",
+      "_id": "68d5318a81628c921a3d018e",
+      "__v": 0
+    },
+    "user": {
+      "prenom": "ali",
+      "nom": "thiam",
+      "role": "livreur",
+      "telephone": "771090594",
+      "email": "ali@gmail.com",
+      "password": "$2b$10$.aXyCIlchyZK2kDPwhJbw.I.n/5N2EtjjtT/C6am1AZ50iRCEYhSu",
+      "livreur_id": "68d5318a81628c921a3d018e",
+      "_id": "68d5318a81628c921a3d0190",
+      "__v": 0
+    }
+  }
+}
+[2025-09-25T12:11:54.617] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "327ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:11:54.617Z",
+  "body": {
+    "nom": "thiam",
+    "prenom": "ali",
+    "telephone": "771090594",
+    "password": "Passer1234",
+    "email": "ali@gmail.com",
+    "commercant_id": "68b86aa31c27940f919e0233"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 411,
+  "responsePreview": "{\"message\":\"Livreur et utilisateur créés avec succès\",\"livreur\":{\"commercant_id\":\"68b86aa31c27940f91"
+}
+[2025-09-25T12:12:02.341] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "146ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:12:02.341Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1458,
+  "responseData": [
+    {
+      "_id": "688ba370b4f321a0e5e29cdc",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba397a8ef10c336e06d49",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba3a3a8ef10c336e06d4d",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba4d8bf6026dc4618deb4",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deb8",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac2",
+      "commercant_id": null,
+      "__v": 0
+    },
+    {
+      "_id": "68b885fc12048bb0ca2e0bbb",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "livraisons": [],
+      "__v": 0
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bbe",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "livraisons": [],
+      "__v": 0
+    },
+    {
+      "_id": "68cb127c1a09ab5bf29ff0b2",
+      "__v": 0
+    },
+    {
+      "_id": "68cb1311614f11e361c2b7a2",
+      "__v": 0
+    },
+    {
+      "_id": "68cb1d2eaf45a327f5cf875f",
+      "__v": 0
+    },
+    {
+      "_id": "68d5318a81628c921a3d018e",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "__v": 0
+    }
+  ]
+}
+[2025-09-25T12:12:02.341] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "147ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.45.0",
+  "timestamp": "2025-09-25T12:12:02.341Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1458,
+  "responsePreview": "[{\"_id\":\"688ba370b4f321a0e5e29cdc\",\"commercant_id\":{\"_id\":\"688ba2b9ba4384daa466b2a4\",\"nom_boutique\":"
+}
+[2025-09-25T12:12:57.433] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "237ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:12:57.433Z",
+  "body": {
+    "email": "diop@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 525,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMTQzODE2MjhjOTIxYTNkMDE4OSIsImVtYWlsIjoiZGlvcEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODgwMjM3NywiZXhwIjoxNzU5NDA3MTc3fQ.EwRLpTHJtlvRaDE0RuCrS9ClnVLnRl0gyBt4ltm_u7U",
+    "user": {
+      "_id": "68d5314381628c921a3d0189",
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "diop@gmail.com",
+      "password": "$2b$10$4x93WCNXxqqTua4o3qqWKurrbUn0fmg62wgEUp/xSTrJD.mAF2Ywa",
+      "commercant_id": "68d5314381628c921a3d0185",
+      "__v": 0
+    }
+  }
+}
+[2025-09-25T12:12:57.434] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "238ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:12:57.434Z",
+  "body": {
+    "email": "diop@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 525,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMTQzOD"
+}
+[2025-09-25T12:14:29.673] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "148ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:14:29.673Z",
+  "query": {},
+  "params": {},
+  "responseSize": 861,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    }
+  ]
+}
+[2025-09-25T12:14:29.674] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "149ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:14:29.674Z",
+  "query": {},
+  "params": {},
+  "responseSize": 861,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T12:15:40.706] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "323ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:15:40.706Z",
+  "body": {
+    "prenom": "amadou",
+    "nom": "diouf",
+    "email": "amadou@gmail.com",
+    "password": "Passer123",
+    "telephone": "771893564"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 374,
+  "responseData": {
+    "message": "Livreur et utilisateur créés avec succès",
+    "livreur": {
+      "_id": "68d5326c81628c921a3d0199",
+      "__v": 0
+    },
+    "user": {
+      "prenom": "amadou",
+      "nom": "diouf",
+      "role": "livreur",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com",
+      "password": "$2b$10$URWX59UecQhq79HePKX8yedKBJ/0gQn0XRCAvUVnoT9mwOkUsaTSG",
+      "livreur_id": "68d5326c81628c921a3d0199",
+      "_id": "68d5326c81628c921a3d019b",
+      "__v": 0
+    }
+  }
+}
+[2025-09-25T12:15:40.707] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createLivreur",
+  "status": 201,
+  "duration": "324ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:15:40.707Z",
+  "body": {
+    "prenom": "amadou",
+    "nom": "diouf",
+    "email": "amadou@gmail.com",
+    "password": "Passer123",
+    "telephone": "771893564"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 374,
+  "responsePreview": "{\"message\":\"Livreur et utilisateur créés avec succès\",\"livreur\":{\"_id\":\"68d5326c81628c921a3d0199\",\"_"
+}
+[2025-09-25T12:17:32.808] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "1061ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:17:32.807Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T12:17:32.809] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "1062ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:17:32.808Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T12:35:15.835] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "736ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:35:15.834Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T12:35:15.836] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "738ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:35:15.836Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T12:48:00.477] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "748ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:48:00.477Z",
+  "body": {
+    "email": "ali@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 527,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMThhODE2MjhjOTIxYTNkMDE5MCIsImVtYWlsIjoiYWxpQGdtYWlsLmNvbSIsInJvbGUiOiJsaXZyZXVyIiwiaWF0IjoxNzU4ODA0NDgwLCJleHAiOjE3NTk0MDkyODB9.M_fUOvAbQBEQ3i19y2BoeHbGkIc4x-nmlJBuOhH8Gac",
+    "user": {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "role": "livreur",
+      "telephone": "771090594",
+      "email": "ali@gmail.com",
+      "password": "$2b$10$.aXyCIlchyZK2kDPwhJbw.I.n/5N2EtjjtT/C6am1AZ50iRCEYhSu",
+      "livreur_id": "68d5318a81628c921a3d018e",
+      "__v": 0
+    }
+  }
+}
+[2025-09-25T12:48:00.478] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "749ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T12:48:00.478Z",
+  "body": {
+    "email": "ali@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 527,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMThhOD"
+}
+[2025-09-25T14:49:48.253] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "718ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T14:49:48.253Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T14:49:48.254] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "719ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T14:49:48.254Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T14:49:54.834] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "144ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T14:49:54.834Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T14:49:54.835] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "145ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T14:49:54.835Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T14:50:05.672] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "294ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T14:50:05.672Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T14:50:05.673] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "295ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T14:50:05.673Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:00:17.786] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "143ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:00:17.786Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:00:17.787] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "144ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:00:17.787Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:00:24.920] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "147ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:00:24.920Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:00:24.921] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "148ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:00:24.921Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:11:18.426] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "1102ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:11:18.426Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:11:18.427] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "1103ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:11:18.427Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:11:37.240] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "161ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:11:37.239Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:11:37.240] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "162ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:11:37.240Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:16:13.179] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "164ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:16:13.178Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:16:13.179] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "165ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:16:13.179Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:16:20.826] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "149ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:16:20.825Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:16:20.826] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "150ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:16:20.826Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:16:28.150] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "146ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:16:28.150Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:16:28.151] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "147ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:16:28.151Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:16:39.443] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "165ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:16:39.442Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:16:39.443] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "166ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:16:39.443Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:57:57.383] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "764ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:57:57.383Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:57:57.384] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "764ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:57:57.383Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:58:45.414] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "149ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:58:45.414Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:58:45.414] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "149ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:58:45.414Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T15:58:55.841] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "167ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:58:55.841Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T15:58:55.842] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "168ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T15:58:55.842Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T16:03:59.877] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "142ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T16:03:59.877Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T16:03:59.878] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "143ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T16:03:59.878Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T16:23:58.073] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "1228ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T16:23:58.073Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-25T16:23:58.074] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "1229ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-25T16:23:58.074Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-25T16:33:41.803] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "1159ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-25T16:33:41.803Z",
+  "body": {
+    "email": "diop@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 525,
+  "responseData": {
+    "message": "Connexion réussie.",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMTQzODE2MjhjOTIxYTNkMDE4OSIsImVtYWlsIjoiZGlvcEBnbWFpbC5jb20iLCJyb2xlIjoiY29tbWVyY2FudCIsImlhdCI6MTc1ODgxODAyMSwiZXhwIjoxNzU5NDIyODIxfQ.Qo_1UC-IfSBSqpreSi0niA114XoMEjFPFqShycqBH8U",
+    "user": {
+      "_id": "68d5314381628c921a3d0189",
+      "nom": "thiam",
+      "role": "commercant",
+      "telephone": "771090593",
+      "email": "diop@gmail.com",
+      "password": "$2b$10$4x93WCNXxqqTua4o3qqWKurrbUn0fmg62wgEUp/xSTrJD.mAF2Ywa",
+      "commercant_id": "68d5314381628c921a3d0185",
+      "__v": 0
+    }
+  }
+}
+[2025-09-25T16:33:41.804] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/signin",
+  "status": 200,
+  "duration": "1160ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-25T16:33:41.804Z",
+  "body": {
+    "email": "diop@gmail.com",
+    "password": "Passer1234"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 525,
+  "responsePreview": "{\"message\":\"Connexion réussie.\",\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDUzMTQzOD"
+}
+[2025-09-25T16:37:21.024] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "252ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-25T16:37:21.023Z",
+  "body": {
+    "nom": "legumes",
+    "commercant_id": "68d5314381628c921a3d0185"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 130,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "legumes",
+      "_id": "68d56fc081628c921a3d01c6",
+      "__v": 0
+    }
+  }
+}
+[2025-09-25T16:37:21.024] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "253ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-25T16:37:21.024Z",
+  "body": {
+    "nom": "legumes",
+    "commercant_id": "68d5314381628c921a3d0185"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 130,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"legumes\",\"_id\":\"68d56fc0816"
+}
+[2025-09-25T17:09:41.240] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-25T17:09:41.239Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.6736943}
+[2025-09-26T09:57:46.574] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "686ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:57:46.574Z",
+  "body": {
+    "name": "legume"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Le nom de la catégorie est requis"
+  }
+}
+[2025-09-26T09:57:46.575] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "687ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:57:46.575Z",
+  "body": {
+    "name": "legume"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Le nom de la catégorie est requis\"}"
+}
+[2025-09-26T09:58:11.813] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "80ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:58:11.813Z",
+  "body": {
+    "name": "legumes"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Le nom de la catégorie est requis"
+  }
+}
+[2025-09-26T09:58:11.815] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "83ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:58:11.815Z",
+  "body": {
+    "name": "legumes"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Le nom de la catégorie est requis\"}"
+}
+[2025-09-26T09:58:28.624] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-26T09:58:28.623Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":1.4021083}
+[2025-09-26T09:58:43.335] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "102ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:58:43.335Z",
+  "body": {
+    "name": "legumes"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Le nom de la catégorie est requis"
+  }
+}
+[2025-09-26T09:58:43.338] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "105ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:58:43.338Z",
+  "body": {
+    "name": "legumes"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Le nom de la catégorie est requis\"}"
+}
+[2025-09-26T09:58:49.397] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "85ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:58:49.397Z",
+  "body": {
+    "name": "legugre"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Le nom de la catégorie est requis"
+  }
+}
+[2025-09-26T09:58:49.398] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "86ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:58:49.398Z",
+  "body": {
+    "name": "legugre"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Le nom de la catégorie est requis\"}"
+}
+[2025-09-26T09:58:51.984] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "97ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:58:51.984Z",
+  "body": {
+    "name": "legugre"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Le nom de la catégorie est requis"
+  }
+}
+[2025-09-26T09:58:51.985] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "97ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T09:58:51.984Z",
+  "body": {
+    "name": "legugre"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Le nom de la catégorie est requis\"}"
+}
+[2025-09-26T10:01:24.752] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "119ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:01:24.752Z",
+  "body": {
+    "name": "sokhna"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responseData": {
+    "message": "Le nom de la catégorie est requis"
+  }
+}
+[2025-09-26T10:01:24.753] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 400,
+  "duration": "120ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:01:24.753Z",
+  "body": {
+    "name": "sokhna"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 48,
+  "responsePreview": "{\"message\":\"Le nom de la catégorie est requis\"}"
+}
+[2025-09-26T10:41:13.317] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "292ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:41:13.317Z",
+  "body": {
+    "nom": "legume"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "legume",
+      "_id": "68d66dc958d49a4f3cabb479",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T10:41:13.318] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "294ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:41:13.318Z",
+  "body": {
+    "nom": "legume"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"legume\",\"_id\":\"68d66dc958d4"
+}
+[2025-09-26T10:41:22.469] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "227ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:41:22.469Z",
+  "body": {
+    "nom": "loiuy"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 128,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "loiuy",
+      "_id": "68d66dd258d49a4f3cabb47d",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T10:41:22.470] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "228ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:41:22.470Z",
+  "body": {
+    "nom": "loiuy"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 128,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"loiuy\",\"_id\":\"68d66dd258d49"
+}
+[2025-09-26T10:42:26.550] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "178ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:42:26.550Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responseData": [
+    {
+      "_id": "688ba3a3a8ef10c336e06d4f",
+      "prenom": "Fatou",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatou.diophjh@example.com"
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deba",
+      "prenom": "fatouFFFjh@example.com",
+      "nom": "Diop",
+      "telephone": "+221771234567",
+      "email": "fatouFFFjh@example.com"
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac4",
+      "prenom": "Ware",
+      "nom": "Fatou",
+      "telephone": "7785966555",
+      "email": "helloword@test.com"
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bc0",
+      "prenom": "abdou",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "thiam@gmail.com"
+    },
+    {
+      "_id": "68cb1312614f11e361c2b7a4",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+22177859617655",
+      "email": "sa3@gmail.com"
+    },
+    {
+      "_id": "68cb1d2faf45a327f5cf8761",
+      "prenom": "Sammba",
+      "nom": "Sow",
+      "telephone": "+221778596176555",
+      "email": "fatou@gmail.com"
+    },
+    {
+      "_id": "68d5318a81628c921a3d0190",
+      "prenom": "ali",
+      "nom": "thiam",
+      "telephone": "771090594",
+      "email": "ali@gmail.com"
+    },
+    {
+      "_id": "68d5326c81628c921a3d019b",
+      "prenom": "amadou",
+      "nom": "diouf",
+      "telephone": "771893564",
+      "email": "amadou@gmail.com"
+    }
+  ]
+}
+[2025-09-26T10:42:26.551] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreursByCommercants",
+  "status": 200,
+  "duration": "180ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:42:26.551Z",
+  "query": {},
+  "params": {},
+  "responseSize": 979,
+  "responsePreview": "[{\"_id\":\"688ba3a3a8ef10c336e06d4f\",\"prenom\":\"Fatou\",\"nom\":\"Diop\",\"telephone\":\"+221771234567\",\"email\""
+}
+[2025-09-26T10:56:19.133] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "241ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:56:19.133Z",
+  "body": {
+    "nom": "sokhna"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "sokhna",
+      "_id": "68d6715358d49a4f3cabb483",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T10:56:19.135] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "243ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:56:19.135Z",
+  "body": {
+    "nom": "sokhna"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"sokhna\",\"_id\":\"68d6715358d4"
+}
+[2025-09-26T10:59:03.430] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 401,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:59:03.429Z",
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responseData": {
+    "success": false,
+    "message": "Accès refusé. Aucun token fourni."
+  }
+}
+[2025-09-26T10:59:03.431] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getcategoriesByCommercant",
+  "status": 401,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:59:03.431Z",
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responsePreview": "{\"success\":false,\"message\":\"Accès refusé. Aucun token fourni.\"}"
+}
+[2025-09-26T10:59:22.881] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 401,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:59:22.881Z",
+  "body": {
+    "nom": "legume"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responseData": {
+    "success": false,
+    "message": "Accès refusé. Aucun token fourni."
+  }
+}
+[2025-09-26T10:59:22.882] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 401,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T10:59:22.882Z",
+  "body": {
+    "nom": "legume"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responsePreview": "{\"success\":false,\"message\":\"Accès refusé. Aucun token fourni.\"}"
+}
+[2025-09-26T11:07:51.737] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 401,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:07:51.737Z",
+  "body": {
+    "nom": "legume"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responseData": {
+    "success": false,
+    "message": "Accès refusé. Aucun token fourni."
+  }
+}
+[2025-09-26T11:07:51.738] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 401,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:07:51.738Z",
+  "body": {
+    "nom": "legume"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responsePreview": "{\"success\":false,\"message\":\"Accès refusé. Aucun token fourni.\"}"
+}
+[2025-09-26T11:07:57.857] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 401,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:07:57.857Z",
+  "body": {
+    "nom": "legumes"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responseData": {
+    "success": false,
+    "message": "Accès refusé. Aucun token fourni."
+  }
+}
+[2025-09-26T11:07:57.858] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 401,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:07:57.858Z",
+  "body": {
+    "nom": "legumes"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responsePreview": "{\"success\":false,\"message\":\"Accès refusé. Aucun token fourni.\"}"
+}
+[2025-09-26T11:07:58.785] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 401,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:07:58.785Z",
+  "body": {
+    "nom": "legumes"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responseData": {
+    "success": false,
+    "message": "Accès refusé. Aucun token fourni."
+  }
+}
+[2025-09-26T11:07:58.785] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 401,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:07:58.785Z",
+  "body": {
+    "nom": "legumes"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 65,
+  "responsePreview": "{\"success\":false,\"message\":\"Accès refusé. Aucun token fourni.\"}"
+}
+[2025-09-26T11:08:33.506] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-26T11:08:33.504Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.8566761}
+[2025-09-26T11:08:56.492] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "255ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:08:56.492Z",
+  "body": {
+    "nom": "koutre"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "koutre",
+      "_id": "68d67448ed2dad15847951a8",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T11:08:56.494] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "258ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:08:56.494Z",
+  "body": {
+    "nom": "koutre"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"koutre\",\"_id\":\"68d67448ed2d"
+}
+[2025-09-26T11:09:09.462] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "260ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:09:09.462Z",
+  "body": {
+    "nom": "guytez"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "guytez",
+      "_id": "68d67455ed2dad15847951ac",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T11:09:09.464] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "263ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:09:09.464Z",
+  "body": {
+    "nom": "guytez"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 129,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"guytez\",\"_id\":\"68d67455ed2d"
+}
+[2025-09-26T11:18:48.523] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "315ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:18:48.523Z",
+  "body": {
+    "nom": "eerthnb"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 130,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "eerthnb",
+      "_id": "68d67698ed2dad15847951b0",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T11:18:48.524] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "316ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:18:48.524Z",
+  "body": {
+    "nom": "eerthnb"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 130,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"eerthnb\",\"_id\":\"68d67698ed2"
+}
+[2025-09-26T11:18:57.199] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "221ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:18:57.199Z",
+  "body": {
+    "nom": "dreza"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 128,
+  "responseData": {
+    "message": "Votre catégorie a été créée avec succès",
+    "categorie": {
+      "nom": "dreza",
+      "_id": "68d676a1ed2dad15847951b4",
+      "__v": 0
+    }
+  }
+}
+[2025-09-26T11:18:57.200] [INFO] detailed - {
+  "method": "POST",
+  "url": "/api/createCategories",
+  "status": 201,
+  "duration": "223ms",
+  "user": "diop@gmail.com (68d5314381628c921a3d0189)",
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+  "timestamp": "2025-09-26T11:18:57.200Z",
+  "body": {
+    "nom": "dreza"
+  },
+  "query": {},
+  "params": {},
+  "responseSize": 128,
+  "responsePreview": "{\"message\":\"Votre catégorie a été créée avec succès\",\"categorie\":{\"nom\":\"dreza\",\"_id\":\"68d676a1ed2da"
+}
+[2025-09-26T11:20:19.433] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:20:19.433Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategories non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:20:19.433Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategories",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:20:19.434] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "3ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:20:19.434Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategories non trouvée\",\"status\":404,\"timestam"
+}
+[2025-09-26T11:20:39.116] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "195ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:20:39.115Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1501,
+  "responseData": [
+    {
+      "_id": "688ba370b4f321a0e5e29cdc",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba397a8ef10c336e06d49",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba3a3a8ef10c336e06d4d",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba4d8bf6026dc4618deb4",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deb8",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac2",
+      "commercant_id": null,
+      "__v": 0
+    },
+    {
+      "_id": "68b885fc12048bb0ca2e0bbb",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "livraisons": [],
+      "__v": 0
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bbe",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "livraisons": [],
+      "__v": 0
+    },
+    {
+      "_id": "68cb127c1a09ab5bf29ff0b2",
+      "__v": 0
+    },
+    {
+      "_id": "68cb1311614f11e361c2b7a2",
+      "__v": 0
+    },
+    {
+      "_id": "68cb1d2eaf45a327f5cf875f",
+      "__v": 0
+    },
+    {
+      "_id": "68d5318a81628c921a3d018e",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "68d5326c81628c921a3d0199",
+      "__v": 0
+    }
+  ]
+}
+[2025-09-26T11:20:39.117] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "196ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:20:39.116Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1501,
+  "responsePreview": "[{\"_id\":\"688ba370b4f321a0e5e29cdc\",\"commercant_id\":{\"_id\":\"688ba2b9ba4384daa466b2a4\",\"nom_boutique\":"
+}
+[2025-09-26T11:20:52.555] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:20:52.555Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategories non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:20:52.555Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategories",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:20:52.556] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:20:52.556Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategories non trouvée\",\"status\":404,\"timestam"
+}
+[2025-09-26T11:28:46.839] [INFO] success - {"operation":"SERVER_START","user":"Système","timestamp":"2025-09-26T11:28:46.837Z","port":"5000","env":"development","nodeVersion":"v22.14.0","uptime":0.8779553}
+[2025-09-26T11:29:46.697] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "9ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:29:46.697Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategories non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:29:46.696Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategories",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:29:46.698] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "11ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:29:46.698Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategories non trouvée\",\"status\":404,\"timestam"
+}
+[2025-09-26T11:31:20.672] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:31:20.672Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategories non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:31:20.672Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategories",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:31:20.673] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "3ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:31:20.673Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategories non trouvée\",\"status\":404,\"timestam"
+}
+[2025-09-26T11:31:23.191] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:31:23.191Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategories non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:31:23.191Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategories non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategories",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:31:23.192] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategories",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:31:23.192Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1624,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategories non trouvée\",\"status\":404,\"timestam"
+}
+[2025-09-26T11:32:00.182] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:32:00.182Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:32:00.182Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:32:00.183] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:32:00.183Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:32:01.882] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:32:01.882Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:32:01.882Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:32:01.884] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "4ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:32:01.884Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:36:17.674] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:36:17.674Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:36:17.674Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:36:17.675] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:36:17.675Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:37:03.561] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:37:03.561Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:37:03.560Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:37:03.561] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:37:03.561Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:37:13.466] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreus",
+  "status": 404,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:37:13.466Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1615,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAlllivreus non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:37:13.466Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAlllivreus non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAlllivreus",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:37:13.467] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreus",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:37:13.467Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1615,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAlllivreus non trouvée\",\"status\":404,\"timestamp\":"
+}
+[2025-09-26T11:37:23.962] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllLivreus",
+  "status": 404,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:37:23.962Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1615,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllLivreus non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:37:23.962Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllLivreus non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllLivreus",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:37:23.963] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllLivreus",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:37:23.963Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1615,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllLivreus non trouvée\",\"status\":404,\"timestamp\":"
+}
+[2025-09-26T11:37:55.675] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "1098ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:37:55.674Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1501,
+  "responseData": [
+    {
+      "_id": "688ba370b4f321a0e5e29cdc",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba397a8ef10c336e06d49",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba3a3a8ef10c336e06d4d",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba4d8bf6026dc4618deb4",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "688ba4ddbf6026dc4618deb8",
+      "commercant_id": {
+        "_id": "688ba2b9ba4384daa466b2a4",
+        "nom_boutique": "Boutique Bio",
+        "adress": "Dakar Plateau",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "68ae0468cfb5e908a0421ac2",
+      "commercant_id": null,
+      "__v": 0
+    },
+    {
+      "_id": "68b885fc12048bb0ca2e0bbb",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "livraisons": [],
+      "__v": 0
+    },
+    {
+      "_id": "68b8863312048bb0ca2e0bbe",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "livraisons": [],
+      "__v": 0
+    },
+    {
+      "_id": "68cb127c1a09ab5bf29ff0b2",
+      "__v": 0
+    },
+    {
+      "_id": "68cb1311614f11e361c2b7a2",
+      "__v": 0
+    },
+    {
+      "_id": "68cb1d2eaf45a327f5cf875f",
+      "__v": 0
+    },
+    {
+      "_id": "68d5318a81628c921a3d018e",
+      "commercant_id": {
+        "_id": "68b86aa31c27940f919e0233",
+        "nom_boutique": "thiamBoutik",
+        "adress": "ouakam",
+        "__v": 0
+      },
+      "__v": 0
+    },
+    {
+      "_id": "68d5326c81628c921a3d0199",
+      "__v": 0
+    }
+  ]
+}
+[2025-09-26T11:37:55.677] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAlllivreurs",
+  "status": 200,
+  "duration": "1104ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:37:55.677Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1501,
+  "responsePreview": "[{\"_id\":\"688ba370b4f321a0e5e29cdc\",\"commercant_id\":{\"_id\":\"688ba2b9ba4384daa466b2a4\",\"nom_boutique\":"
+}
+[2025-09-26T11:38:21.505] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:38:21.505Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:38:21.505Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:38:21.505] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:38:21.505Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:39:24.183] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:39:24.183Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:39:24.183Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:39:24.185] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "3ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:39:24.185Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:39:25.762] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:39:25.762Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:39:25.762Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:39:25.763] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:39:25.763Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:43:00.769] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:43:00.769Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:43:00.769Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:43:00.770] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:43:00.770Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:43:02.506] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:43:02.505Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:43:02.505Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:43:02.506] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:43:02.506Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:44:40.303] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:44:40.303Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:44:40.303Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:44:40.304] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:44:40.304Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:46:50.862] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:46:50.862Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:46:50.862Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:46:50.863] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:46:50.863Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:46:52.525] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "0ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:46:52.525Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:46:52.524Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:46:52.526] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:46:52.525Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}
+[2025-09-26T11:47:10.049] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "1ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:47:10.049Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responseData": {
+    "success": false,
+    "error": {
+      "message": "Route /api/getAllCategorie non trouvée",
+      "status": 404,
+      "timestamp": "2025-09-26T11:47:10.049Z"
+    },
+    "debug": {
+      "stack": "Error: Route /api/getAllCategorie non trouvée\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\index.js:75:19\n    at Layer.handleRequest (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:291:5)\n    at C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:688:15\n    at next (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:276:14)\n    at Function.handle (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:186:3)\n    at router (C:\\Users\\a891999\\OneDrive - ATOS\\Documents\\New_Paps\\Projet_Paps\\backend\\node_modules\\router\\index.js:60:12)",
+      "url": "/api/getAllCategorie",
+      "method": "GET",
+      "user": "Non authentifié",
+      "query": {},
+      "params": {}
+    }
+  }
+}
+[2025-09-26T11:47:10.050] [INFO] detailed - {
+  "method": "GET",
+  "url": "/api/getAllCategorie",
+  "status": 404,
+  "duration": "2ms",
+  "user": "Non authentifié",
+  "ip": "::1",
+  "userAgent": "PostmanRuntime/7.47.1",
+  "timestamp": "2025-09-26T11:47:10.050Z",
+  "query": {},
+  "params": {},
+  "responseSize": 1621,
+  "responsePreview": "{\"success\":false,\"error\":{\"message\":\"Route /api/getAllCategorie non trouvée\",\"status\":404,\"timestamp"
+}

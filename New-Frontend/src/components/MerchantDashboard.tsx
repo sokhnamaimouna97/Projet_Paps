@@ -11,7 +11,8 @@ import OrdersTab from '../components/commercants/OrdersTab';
 import DeliveryTab from '../components/commercants/DeliveryTab';
 
 // Import des types
-import { Product, Order, DeliveryPerson, StoreSettings, MerchantDashboardProps } from '../lib/types';
+import { Product, Order, DeliveryPerson, StoreSettings, MerchantDashboardProps, Category } from '../lib/types';
+import CategoriesTab from './commercants/CategoryTab';
 
 const MerchantDashboard: React.FC<MerchantDashboardProps> = ({ 
   merchantId, 
@@ -25,6 +26,7 @@ const MerchantDashboard: React.FC<MerchantDashboardProps> = ({
   const [isLoading, setIsLoading] = useState(true);
   const [isPremium, setIsPremium] = useState(false);
   const [isShareDialogOpen, setIsShareDialogOpen] = useState(false);
+  const [categories, setCategories] = useState<Category[]>([]);
   
   const [storeSettings, setStoreSettings] = useState<StoreSettings>({
     name: 'Ma Boutique',
@@ -41,7 +43,7 @@ const MerchantDashboard: React.FC<MerchantDashboardProps> = ({
   const loadData = async () => {
     setIsLoading(true);
     try {
-      const [productsRes, ordersRes, deliveryRes] = await Promise.all([
+      const [productsRes, ordersRes, deliveryRes, categoryRes] = await Promise.all([
         fetch(`https://${projectId}.supabase.co/functions/v1/make-server-9f9491c0/merchant/${merchantId}/products`, {
           headers: { 'Authorization': `Bearer ${publicAnonKey}` }
         }),
@@ -50,15 +52,21 @@ const MerchantDashboard: React.FC<MerchantDashboardProps> = ({
         }),
         fetch(`https://${projectId}.supabase.co/functions/v1/make-server-9f9491c0/merchant/${merchantId}/delivery-people`, {
           headers: { 'Authorization': `Bearer ${publicAnonKey}` }
-        })
+        }),
+        fetch(`https://${projectId}.supabase.co/functions/v1/make-server-9f9491c0/merchant/${merchantId}/categories`, {
+          headers: { 'Authorization': `Bearer ${publicAnonKey}` }
+        }),
       ]);
 
       const productsData = await productsRes.json();
       const ordersData = await ordersRes.json();
       const deliveryData = await deliveryRes.json();
+      const categoryData = await categoryRes.json();
 
       setProducts(productsData.products || []);
       setOrders(ordersData.orders || []);
+      setCategories(categoryData.categories || [] );
+
       
       // Ajouter Paps comme livreur par défaut s'il n'existe pas déjà
       const deliveryPeopleList = deliveryData.deliveryPeople || [];
@@ -118,6 +126,8 @@ const MerchantDashboard: React.FC<MerchantDashboardProps> = ({
             <TabsTrigger value="products">Produits</TabsTrigger>
             <TabsTrigger value="orders">Commandes</TabsTrigger>
             <TabsTrigger value="delivery">Livreurs</TabsTrigger>
+            <TabsTrigger value="categories">Catégories</TabsTrigger>
+
           </TabsList>
 
           <TabsContent value="dashboard" className="space-y-6">
@@ -149,6 +159,14 @@ const MerchantDashboard: React.FC<MerchantDashboardProps> = ({
               merchantId={merchantId}
               isPremium={isPremium}
               isLoading={isLoading}
+            />
+          </TabsContent>
+           <TabsContent value="categories" className="space-y-6">
+            <CategoriesTab
+              categories={categories}
+              setCategories={setCategories}
+              merchantId={merchantId}
+              isPremium={isPremium}
             />
           </TabsContent>
         </Tabs>
